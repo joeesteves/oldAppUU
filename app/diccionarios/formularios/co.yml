@@ -1,0 +1,12 @@
+co/cuentas:
+  codigo:
+    label: Codigo
+    input:
+      type: text
+      placeholder: Escriba un codigo
+  tipo:
+    label: 'Tipo de cuenta'
+    input:
+      type: select
+      placeholder: Que clase de cuenta es?
+      const: 'Co::Cuenta::TIPOS'

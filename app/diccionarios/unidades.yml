@@ -1,0 +1,36 @@
+base:
+  unidad:
+    sym: un
+peso:
+  kilogramo:
+    sym: kg
+    rel: 1
+  gramo:
+    sym: gr
+    rel: 0.001
+  quintal:
+    sym: qt
+    rel: 100
+  tonelada:
+    sym: ton
+    rel: 1000
+longitud:
+  metro:
+    sym: m
+    rel: 1
+  kilometro:
+    sym: km
+    rel: 1000
+volumen:
+  litro: 
+    sym: lt
+    rel: 1
+  mililitro:
+    sym: ml
+    rel: 0.001
+  centilitro:
+    sym: cl
+    rel: 0.01
+  decilitro:
+    sym: dl
+    rel: 0.1

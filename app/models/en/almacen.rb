@@ -1,0 +1,2 @@
+class En::Almacen
+end

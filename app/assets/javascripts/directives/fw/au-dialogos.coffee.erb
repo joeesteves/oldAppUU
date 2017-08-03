@@ -1,0 +1,17 @@
+angular.module('appuu')
+.directive 'auConfirmaBorrar', () ->
+  replace: true
+  restrict: 'E'
+  templateUrl: '  <%= asset_path("fw/dialogos/confirma_borrar") %>'
+.directive 'auFijaEnEscritorio', () ->
+  replace: true
+  restrict: 'E'
+  templateUrl: '  <%= asset_path("fw/dialogos/fija_en_escritorio") %>'
+.directive 'auDialogoSesiones', () ->
+  replace: true
+  restrict: 'E'
+  templateUrl: '  <%= asset_path("fw/dialogos/sesiones") %>'
+  controller: ($scope, ResourseManager, SessionManager) ->
+    SessionManager.listar_empresas()
+    $scope.cambiar_empresa = (id) ->
+      SessionManager.cambiar_empresa(id)

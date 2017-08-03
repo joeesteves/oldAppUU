@@ -1,0 +1,8 @@
+compra:
+  fecha: <%= Date.today() %>
+  organizacion_id: 1
+  bruto: 100
+  impuesto: 21
+  total: 121
+  obs: mi primera compra
+  empresa_id: 1

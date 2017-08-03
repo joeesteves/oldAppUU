@@ -1,0 +1,12 @@
+%div.col-md-12
+  %div.col-md-4{'ng-repeat': 'item in collection track by $index'}
+    %div.panel.panel-primary
+      %div.panel-heading
+        %h3.panel-title {{item.titulo}}
+      %div.panel-body
+        %p{'marked': 'item.contenido'}
+      %div.panel-footer.text-right
+        %span{class: 'glyphicon glyphicon-pushpin text-success', 'ng-click': 'fijar(item.id, $index)' }
+        %span{class: 'glyphicon glyphicon-time text-success', 'ng-click': 'postergar(item.id, $index)' }
+        %span{class: 'glyphicon glyphicon-user text-success', 'ng-click': 'compartir(item)', 'data-toggle': 'modal', 'data-target': '#FijaEnEscritorio'}
+%au-fija-en-escritorio

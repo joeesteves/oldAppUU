@@ -1,0 +1,13 @@
+%div.container
+  %form{class: 'form-horizontal', 'ng-submit': 'guardar()'}
+    %div{class: 'form-group', 'ng-repeat': '(k,v) in fields'}
+      %label{class: 'col-sm-2 control-label'} {{ v.label }}
+      %div{class: 'col-sm-10', 'ng-switch': 'v.input.type'}
+        %select{'ng-switch-when': 'select', class: "form-control", 'ng-model': 'obj[k]', 'ng-options': 'item.id as item.nombre for item in v.input.data'}
+          %option{value:'', 'disabled':true} {{v.input.placeholder}}
+        %input{'ng-switch-when': 'checkbox', type: '{{v.input.type}}', class: "form-control", 'ng-model': 'obj[k]', 'ng-true-value': '1', 'ng-false_value': '0'}
+        %textarea{'ng-switch-when': 'textarea', class: "form-control", 'ng-model': 'obj[k]', 'rows': '{{v.input.rows}}', placeholder: '{{v.input.placeholder}}'}
+        %input{'ng-switch-default':true, type: '{{v.input.type}}', class: "form-control", placeholder: '{{v.input.placeholder}}', 'ng-model': 'obj[k]'}
+    %div.form-group
+      %div{class: 'col-sm-offset-2 col-sm-10'}
+        %input{type: 'submit', class: "btn btn-primary"}

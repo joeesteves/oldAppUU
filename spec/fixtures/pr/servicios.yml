@@ -1,0 +1,8 @@
+servicio:
+  nombre: Honorarios
+  cta_compra: cta_egreso
+  impuesto: iva
+pr_exento:
+  nombre: Exento
+  impuesto: exento
+  cta_compra_id: 10

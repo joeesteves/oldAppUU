@@ -1,0 +1,824 @@
+!_TAG_FILE_FORMAT	2	/extended format/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Łukasz Korecki	/lukasz@korecki.me/
+!_TAG_PROGRAM_NAME	CoffeeTags	//
+!_TAG_PROGRAM_URL	https://github.com/lukaszkorecki/CoffeeTags	/GitHub repository/
+!_TAG_PROGRAM_VERSION	0.6.0	//
+@cancelOmniauthInAppBrowserListeners	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            @cancelOmniauthInAppBrowserListeners = (->)$/;"	f	line:106	language:coffee	object:exports.defaultConfigName.get.initialize
+@timer	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^              @timer = \$timeout (=>$/;"	f	line:718	language:coffee	object:exports.defaultConfigName.get.setAuthHeaders
+ADICIONALES	app/models/mi.rb	/^  ADICIONALES = []$/;"	C	class:Mi
+ADICIONALES	app/models/op/base.rb	/^  ADICIONALES = [:org_nombre]$/;"	C	class:Op.Base
+ADICIONALES	config/initializers/open_classes.rb	/^  ADICIONALES = []$/;"	C	class:ActiveRecord.Base
+ALL	app/models/pr/unidad.rb	/^  ALL  = datos.inject({}) {|h,(k,v)| v.each {|k,v| h[k] = v['sym'] }; h }$/;"	C	class:Pr.Unidad
+Acceso	app/models/ba/acceso.rb	/^class Ba::Acceso < ActiveRecord::Base$/;"	c	class:Ba	inherits:ActiveRecord.Base
+AddAsientoIdToBase	db/migrate/20151221174439_add_asiento_id_to_base.rb	/^class AddAsientoIdToBase < ActiveRecord::Migration$/;"	c	inherits:ActiveRecord.Migration
+AddCPtoBase	db/migrate/20160118141315_add_c_pto_base.rb	/^class AddCPtoBase < ActiveRecord::Migration$/;"	c	inherits:ActiveRecord.Migration
+AddCuentaCredyDebToImp	db/migrate/20151221155447_add_cuenta_credy_deb_to_imp.rb	/^class AddCuentaCredyDebToImp < ActiveRecord::Migration$/;"	c	inherits:ActiveRecord.Migration
+AddCuentaIdToImp	db/migrate/20151218205624_add_cuenta_id_to_imp.rb	/^class AddCuentaIdToImp < ActiveRecord::Migration$/;"	c	inherits:ActiveRecord.Migration
+AddImpuestoIdToOpItem	db/migrate/20151228191209_add_impuesto_id_to_op_item.rb	/^class AddImpuestoIdToOpItem < ActiveRecord::Migration$/;"	c	inherits:ActiveRecord.Migration
+AddImpuestoToItems	db/migrate/20151222154220_add_impuesto_to_items.rb	/^class AddImpuestoToItems < ActiveRecord::Migration$/;"	c	inherits:ActiveRecord.Migration
+AddImpuestoToProducto	db/migrate/20151228153757_add_impuesto_to_producto.rb	/^class AddImpuestoToProducto < ActiveRecord::Migration$/;"	c	inherits:ActiveRecord.Migration
+AddImpuestosHstoreToOpBase	db/migrate/20151222144805_add_impuestos_hstore_to_op_base.rb	/^class AddImpuestosHstoreToOpBase < ActiveRecord::Migration$/;"	c	inherits:ActiveRecord.Migration
+Almacen	app/models/en/almacen.rb	/^class En::Almacen$/;"	c	class:En
+ApiHelpers	spec/support/api_helpers.rb	/^module ApiHelpers$/;"	m
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Appuu	inherits:Rails.Application
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c	inherits:ActionController.Base
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Appuu	config/application.rb	/^module Appuu$/;"	m
+ArchivoController	app/controllers/mi/archivo_controller.rb	/^class Mi::ArchivoController < ApplicationController$/;"	c	class:Mi	inherits:ApplicationController
+Array	config/initializers/open_classes.rb	/^class Array$/;"	c
+Asiento	app/models/co/asiento.rb	/^class Co::Asiento < ActiveRecord::Base$/;"	c	class:Co	inherits:ActiveRecord.Base
+Auxiliar	app/models/ad/auxiliar.rb	/^class Ad::Auxiliar$/;"	c	class:Ad
+Ba	app/models/ba.rb	/^module Ba$/;"	m
+Banco	app/models/mis/cuentas/banco.rb	/^class Mis::Cuentas::Banco < Co::Cuenta$/;"	c	class:Mis.Cuentas	inherits:Co.Cuenta
+BancosController	app/controllers/mis/cuentas/bancos_controller.rb	/^class Mis::Cuentas::BancosController < ApplicationController$/;"	c	class:Mis.Cuentas	inherits:ApplicationController
+Base	app/models/mi/base.rb	/^class Mi::Base < Mi$/;"	c	class:Mi	inherits:Mi
+Base	app/models/op/base.rb	/^class Op::Base < ActiveRecord::Base$/;"	c	class:Op	inherits:ActiveRecord.Base
+Base	config/initializers/open_classes.rb	/^class ActiveRecord::Base$/;"	c	class:ActiveRecord
+Bien	app/models/pr/bien.rb	/^class Pr::Bien < Ba::Producto$/;"	c	class:Pr	inherits:Ba.Producto
+BienesController	app/controllers/pr/bienes_controller.rb	/^class Pr::BienesController < ApplicationController$/;"	c	class:Pr	inherits:ApplicationController
+CFISCALES	app/models/ba/organizacion.rb	/^Ba::Organizacion::CFISCALES = {$/;"	C	class:Ba.Organizacion
+Caja	app/models/mis/cuentas/caja.rb	/^class Mis::Cuentas::Caja < Co::Cuenta$/;"	c	class:Mis.Cuentas	inherits:Co.Cuenta
+CajasController	app/controllers/mis/cuentas/cajas_controller.rb	/^class Mis::Cuentas::CajasController < ApplicationController$/;"	c	class:Mis.Cuentas	inherits:ApplicationController
+Cbu	app/models/tb/cbu.rb	/^class Tb::Cbu$/;"	c	class:Tb
+ChangeDetalleToJson	db/migrate/20151222192244_change_detalle_to_json.rb	/^class ChangeDetalleToJson < ActiveRecord::Migration$/;"	c	inherits:ActiveRecord.Migration
+ClassMethods	app/models/concerns/standard.rb	/^  module ClassMethods$/;"	m	class:Standard.Taggeable
+Cliente	app/models/mis/organizaciones/cliente.rb	/^class Mis::Organizaciones::Cliente < Ba::Organizacion$/;"	c	class:Mis.Organizaciones	inherits:Ba.Organizacion
+ClientesController	app/controllers/mis/organizaciones/clientes_controller.rb	/^class Mis::Organizaciones::ClientesController < ApplicationController$/;"	c	class:Mis.Organizaciones	inherits:ApplicationController
+Co	app/models/co.rb	/^module Co$/;"	m
+Compra	app/models/mis/operaciones/compra.rb	/^class Mis::Operaciones::Compra < Op::Base$/;"	c	class:Mis.Operaciones	inherits:Op.Base
+CompraSerializer	app/serializers/mis/operaciones/compra_serializer.rb	/^  class Mis::Operaciones::CompraSerializer < ActiveModel::Serializer$/;"	c	class:Mis.Operaciones	inherits:ActiveModel.Serializer
+ComprasController	app/controllers/mis/operaciones/compras_controller.rb	/^class Mis::Operaciones::ComprasController < ApplicationController$/;"	c	class:Mis.Operaciones	inherits:ApplicationController
+Comun	app/models/concerns/scope.rb	/^module Scope::Comun$/;"	m	class:Scope
+Condicion	app/models/op/condicion.rb	/^class Op::Condicion < ActiveRecord::Base$/;"	c	class:Op	inherits:ActiveRecord.Base
+Contador	app/models/ad/contador.rb	/^class Ad::Contador$/;"	c	class:Ad
+CorchoController	app/controllers/mi/corcho_controller.rb	/^class Mi::CorchoController < ApplicationController$/;"	c	class:Mi	inherits:ApplicationController
+Cotizacion	app/models/co/cotizacion.rb	/^class Co::Cotizacion < ActiveRecord::Base$/;"	c	class:Co	inherits:ActiveRecord.Base
+CreateOpCondiciones	db/migrate/20160225140126_create_op_condiciones.rb	/^class CreateOpCondiciones < ActiveRecord::Migration$/;"	c	inherits:ActiveRecord.Migration
+Cuenta	app/models/co/cuenta.rb	/^class Co::Cuenta < ActiveRecord::Base$/;"	c	class:Co	inherits:ActiveRecord.Base
+Cuenta	app/models/mi/cuenta.rb	/^class Mi::Cuenta < Mi$/;"	c	class:Mi	inherits:Mi
+CuentasController	app/controllers/co/cuentas_controller.rb	/^class Co::CuentasController < ApplicationController$/;"	c	class:Co	inherits:ApplicationController
+DeleteImpuestoFromItem	db/migrate/20151228155013_delete_impuesto_from_item.rb	/^class DeleteImpuestoFromItem < ActiveRecord::Migration$/;"	c	inherits:ActiveRecord.Migration
+Deposito	app/models/in/deposito.rb	/^class In::Deposito < ActiveRecord::Base$/;"	c	class:In	inherits:ActiveRecord.Base
+DepositosController	app/controllers/in/depositos_controller.rb	/^class In::DepositosController < ApplicationController$/;"	c	class:In	inherits:ApplicationController
+Diccionario	app/models/fw/diccionario.rb	/^class Fw::Diccionario$/;"	c	class:Fw
+ESTADOS	app/models/fw/tarjeta.rb	/^  ESTADOS = {$/;"	C	class:Fw.Tarjeta
+Egreso	app/models/mis/cuentas/egreso.rb	/^class Mis::Cuentas::Egreso < Co::Cuenta$/;"	c	class:Mis.Cuentas	inherits:Co.Cuenta
+Egreso	app/models/op/egreso.rb	/^class Op::Egreso < Op::Base$/;"	c	class:Op	inherits:Op.Base
+EgresosController	app/controllers/mis/cuentas/egresos_controller.rb	/^class Mis::Cuentas::EgresosController < ApplicationController$/;"	c	class:Mis.Cuentas	inherits:ApplicationController
+EgresosController	app/controllers/op/egresos_controller.rb	/^class Op::EgresosController < ApplicationController$/;"	c	class:Op	inherits:ApplicationController
+Empresa	app/controllers/concerns/globales.rb	/^module Globales::Empresa$/;"	m	class:Globales
+Empresa	app/models/concerns/scope.rb	/^module Scope::Empresa$/;"	m	class:Scope
+Empresa	app/models/mi/empresa.rb	/^class Mi::Empresa < Ba::Organizacion$/;"	c	class:Mi	inherits:Ba.Organizacion
+EmpresaController	app/controllers/mi/empresa_controller.rb	/^class Mi::EmpresaController < ApplicationController$/;"	c	class:Mi	inherits:ApplicationController
+Entorno	app/models/mi/entorno.rb	/^class Mi::Entorno < Mi$/;"	c	class:Mi	inherits:Mi
+Escritorio	app/models/mi/escritorio.rb	/^class Mi::Escritorio < Mi$/;"	c	class:Mi	inherits:Mi
+EscritorioController	app/controllers/mi/escritorio_controller.rb	/^class Mi::EscritorioController < ApplicationController$/;"	c	class:Mi	inherits:ApplicationController
+FICHA	app/models/fw/diccionario.rb	/^  FICHA =  Dir[Rails.root.join("app","diccionarios","fichas", "*.yml")].inject({}) do |h, d|$/;"	C	class:Fw.Diccionario
+FORMULARIO	app/models/fw/diccionario.rb	/^  FORMULARIO =  Dir[Rails.root.join("app","diccionarios","formularios", "*.yml")].inject({}) do |h, d|$/;"	C	class:Fw.Diccionario
+Fw	app/models/fw.rb	/^module Fw$/;"	m
+Globales	app/controllers/concerns/globales.rb	/^module Globales$/;"	m
+Globalizer	app/serializers/globalizer.rb	/^module Globalizer$/;"	m
+Hash	config/initializers/open_classes.rb	/^class Hash$/;"	c
+Impuesto	app/models/co/impuesto.rb	/^class Co::Impuesto < ActiveRecord::Base$/;"	c	class:Co	inherits:ActiveRecord.Base
+ImpuestosController	app/controllers/co/impuestos_controller.rb	/^class Co::ImpuestosController < ApplicationController$/;"	c	class:Co	inherits:ApplicationController
+In	app/models/in.rb	/^module In$/;"	m
+Ingreso	app/models/mis/cuentas/ingreso.rb	/^class Mis::Cuentas::Ingreso < Co::Cuenta$/;"	c	class:Mis.Cuentas	inherits:Co.Cuenta
+IngresosController	app/controllers/mis/cuentas/ingresos_controller.rb	/^class Mis::Cuentas::IngresosController < ApplicationController$/;"	c	class:Mis.Cuentas	inherits:ApplicationController
+InicioController	app/controllers/inicio_controller.rb	/^class InicioController < ApplicationController$/;"	c	inherits:ApplicationController
+Item	app/models/co/item.rb	/^class Co::Item < ActiveRecord::Base$/;"	c	class:Co	inherits:ActiveRecord.Base
+Item	app/models/op/item.rb	/^class Op::Item < ActiveRecord::Base$/;"	c	class:Op	inherits:ActiveRecord.Base
+ItemSerializer	app/serializers/op/item_serializer.rb	/^class Op::ItemSerializer < ActiveModel::Serializer$/;"	c	class:Op	inherits:ActiveModel.Serializer
+K	app/models/mis/operaciones/compra.rb	/^Mis::Operaciones::Compra::K = {$/;"	C	class:Mis.Operaciones.Compra
+K	app/models/mis/operaciones/venta.rb	/^Mis::Operaciones::Venta::K = {$/;"	C	class:Mis.Operaciones.Venta
+LoginHelpers	spec/support/login_helpers.rb	/^module LoginHelpers$/;"	m
+MailerHelpers	spec/support/mailer_helpers.rb	/^module MailerHelpers$/;"	m
+Mi	app/models/mi.rb	/^class Mi$/;"	c
+Moneda	app/models/co/moneda.rb	/^class Co::Moneda < ActiveRecord::Base$/;"	c	class:Co	inherits:ActiveRecord.Base
+Nota	app/models/fw/nota.rb	/^class Fw::Nota < ActiveRecord::Base$/;"	c	class:Fw	inherits:ActiveRecord.Base
+NotasController	app/controllers/fw/notas_controller.rb	/^class Fw::NotasController < ApplicationController$/;"	c	class:Fw	inherits:ApplicationController
+Op	app/models/op.rb	/^module Op$/;"	m
+Organizacion	app/models/ba/organizacion.rb	/^class Ba::Organizacion < ActiveRecord::Base$/;"	c	class:Ba	inherits:ActiveRecord.Base
+OrganizacionesController	app/controllers/ba/organizaciones_controller.rb	/^class Ba::OrganizacionesController < ApplicationController$/;"	c	class:Ba	inherits:ApplicationController
+PARAMS	app/models/ba/organizacion.rb	/^  PARAMS = [:nombre, :cat_fiscal]$/;"	C	class:Ba.Organizacion
+PARAMS	app/models/ba/producto.rb	/^  PARAMS = [:id, :nombre, :cta_compra, :cta_compra_id, :cta_venta_id, :impuesto_id]$/;"	C	class:Ba.Producto
+PARAMS	app/models/co/cuenta.rb	/^  PARAMS = [:id, :nombre, :desc, :tipo]$/;"	C	class:Co.Cuenta
+PARAMS	app/models/fw/nota.rb	/^  PARAMS = [:id, :titulo, :contenido]$/;"	C	class:Fw.Nota
+PARAMS	app/models/mi/perfil.rb	/^  PARAMS = [:id, :email, :nickname, :name]$/;"	C	class:Mi.Perfil
+PARAMS	app/models/mis/cuentas/banco.rb	/^  PARAMS = [:id, :nombre, :codigo]$/;"	C	class:Mis.Cuentas.Banco
+PARAMS	app/models/op/base.rb	/^  PARAMS = [:id, :fecha, :comprobante, :bruto, :impuesto, :total, :organizacion_id, :obs, :detalle, items_attributes: [:id, :producto_id, :precio, :cantidad, :importe, :impuesto_id, :obs, :_destroy], condiciones_attributes: [:id, :cuenta_id, :forma, :importe]]$/;"	C	class:Op.Base
+PARAMS	app/models/op/condicion.rb	/^  PARAMS = [:id, :cuenta_id, :forma, :importe]$/;"	C	class:Op.Condicion
+PARAMS	app/models/op/item.rb	/^  PARAMS = [:id, :precio, :cantidad, :importe, :producto_id, :impuesto_id]$/;"	C	class:Op.Item
+PARAMS	app/models/pr/bien.rb	/^  PARAMS = [:id, :nombre, :cta_compra_id, :unidad]$/;"	C	class:Pr.Bien
+PARAMS	config/initializers/open_classes.rb	/^	PARAMS = nil$/;"	C	class:ActiveRecord.Base
+PRINCIPALES	app/models/co/cuenta.rb	/^Co::Cuenta::PRINCIPALES = {$/;"	C	class:Co.Cuenta
+Perfil	app/models/mi/perfil.rb	/^class Mi::Perfil < Mi$/;"	c	class:Mi	inherits:Mi
+PerfilController	app/controllers/mi/perfil_controller.rb	/^class Mi::PerfilController < ApplicationController$/;"	c	class:Mi	inherits:ApplicationController
+Pr	app/models/pr.rb	/^module Pr$/;"	m
+Producto	app/models/ba/producto.rb	/^class Ba::Producto < ActiveRecord::Base$/;"	c	class:Ba	inherits:ActiveRecord.Base
+ProductoSerializer	app/serializers/ba/producto_serializer.rb	/^class Ba::ProductoSerializer < ActiveModel::Serializer$/;"	c	class:Ba	inherits:ActiveModel.Serializer
+Proveedor	app/models/mis/organizaciones/proveedor.rb	/^class Mis::Organizaciones::Proveedor < Ba::Organizacion$/;"	c	class:Mis.Organizaciones	inherits:Ba.Organizacion
+ProveedoresController	app/controllers/mis/organizaciones/proveedores_controller.rb	/^class Mis::Organizaciones::ProveedoresController < ApplicationController$/;"	c	class:Mis.Organizaciones	inherits:ApplicationController
+Recepcion	app/models/en/recepcion.rb	/^class En::Recepcion$/;"	c	class:En
+Relacion	app/models/ba/relacion.rb	/^class Ba::Relacion < ActiveRecord::Base$/;"	c	class:Ba	inherits:ActiveRecord.Base
+RemoveCondPagoBase	db/migrate/20160225143022_remove_cond_pago_base.rb	/^class RemoveCondPagoBase < ActiveRecord::Migration$/;"	c	inherits:ActiveRecord.Migration
+Res	./app/assets/javascripts/controllers/fw/resourses/index-ctrl.coffee	/^  Res = ResourseManager.resource()$/;"	o	line:4	language:coffee	object:window
+Rol	app/models/ba/rol.rb	/^class Ba::Rol < ActiveRecord::Base$/;"	c	class:Ba	inherits:ActiveRecord.Base
+Scope	app/models/concerns/scope.rb	/^module Scope$/;"	m
+Scope	app/models/fw/scope.rb	/^class Fw::Scope < ActiveRecord::Base$/;"	c	class:Fw	inherits:ActiveRecord.Base
+Secretaria	app/models/ad/secretaria.rb	/^class Ad::Secretaria$/;"	c	class:Ad
+Seguridad	app/models/en/seguridad.rb	/^class En::Seguridad$/;"	c	class:En
+Servicio	app/models/pr/servicio.rb	/^class Pr::Servicio < Ba::Producto$/;"	c	class:Pr	inherits:Ba.Producto
+ServicioSerializer	app/serializers/pr/servicio_serializer.rb	/^class Pr::ServicioSerializer < ActiveModel::Serializer$/;"	c	class:Pr	inherits:ActiveModel.Serializer
+ServiciosController	app/controllers/pr/servicios_controller.rb	/^class Pr::ServiciosController < ApplicationController$/;"	c	class:Pr	inherits:ApplicationController
+SesionController	app/controllers/sesion_controller.rb	/^class SesionController < ApplicationController$/;"	c	inherits:ApplicationController
+SetCPdefault	db/migrate/20160118150906_set_c_pdefault.rb	/^class SetCPdefault < ActiveRecord::Migration$/;"	c	inherits:ActiveRecord.Migration
+SetDebeHaberDefaults	db/migrate/20151221142636_set_debe_haber_defaults.rb	/^class SetDebeHaberDefaults < ActiveRecord::Migration$/;"	c	inherits:ActiveRecord.Migration
+Standard	app/models/concerns/standard.rb	/^module Standard$/;"	m
+TIPOS	app/models/ba/relacion.rb	/^  TIPOS = { cliente: 0, proveedor: 1, bilateral: 3 }$/;"	C	class:Ba.Relacion
+TIPOS	app/models/co/cuenta.rb	/^Co::Cuenta::TIPOS = {$/;"	C	class:Co.Cuenta
+TIPOS	app/models/fw/tag.rb	/^  TIPOS = %w(general sistema)$/;"	C	class:Fw.Tag
+TIPOS	app/models/op/base.rb	/^Op::Base::TIPOS = {$/;"	C	class:Op.Base
+Tag	app/models/fw/tag.rb	/^class Fw::Tag < ActiveRecord::Base$/;"	c	class:Fw	inherits:ActiveRecord.Base
+Taggeable	app/models/concerns/standard.rb	/^module Standard::Taggeable$/;"	m	class:Standard
+Tarjeta	app/models/fw/tarjeta.rb	/^class Fw::Tarjeta < ActiveRecord::Base$/;"	c	class:Fw	inherits:ActiveRecord.Base
+Tarjeta	app/models/mis/cuentas/tarjeta.rb	/^class Mis::Cuentas::Tarjeta < Co::Cuenta$/;"	c	class:Mis.Cuentas	inherits:Co.Cuenta
+TarjetasController	app/controllers/fw/tarjetas_controller.rb	/^class Fw::TarjetasController < ApplicationController$/;"	c	class:Fw	inherits:ApplicationController
+TarjetasController	app/controllers/mis/cuentas/tarjetas_controller.rb	/^class Mis::Cuentas::TarjetasController < ApplicationController$/;"	c	class:Mis.Cuentas	inherits:ApplicationController
+TarjetasController	app/controllers/mis/tarjetas_controller.rb	/^class Mis::TarjetasController < ApplicationController$/;"	c	class:Mis	inherits:ApplicationController
+Tarjeteable	app/models/concerns/standard.rb	/^module Standard::Tarjeteable$/;"	m	class:Standard
+Tesorero	app/models/ad/tesorero.rb	/^class Ad::Tesorero$/;"	c	class:Ad
+Traductor	app/models/fw/traductor.rb	/^class Fw::Traductor$/;"	c	class:Fw
+TraductorController	app/controllers/fw/traductor_controller.rb	/^class Fw::TraductorController < ApplicationController$/;"	c	class:Fw	inherits:ApplicationController
+Unidad	app/models/pr/unidad.rb	/^class Pr::Unidad$/;"	c	class:Pr
+UnidadesController	app/controllers/pr/unidades_controller.rb	/^class Pr::UnidadesController < ApplicationController$/;"	c	class:Pr	inherits:ApplicationController
+Usuario	app/controllers/concerns/globales.rb	/^module Globales::Usuario$/;"	m	class:Globales
+Usuario	app/models/ba/usuario.rb	/^class Ba::Usuario < ActiveRecord::Base$/;"	c	class:Ba	inherits:ActiveRecord.Base
+Usuario	app/models/concerns/scope.rb	/^module Scope::Usuario$/;"	m	class:Scope
+ValidationsAbm	app/models/concerns/standard.rb	/^module Standard::ValidationsAbm$/;"	m	class:Standard
+ValidationsAbmCoded	app/models/concerns/standard.rb	/^module Standard::ValidationsAbmCoded$/;"	m	class:Standard
+Venta	app/models/mis/operaciones/venta.rb	/^class Mis::Operaciones::Venta < Op::Base$/;"	c	class:Mis.Operaciones	inherits:Op.Base
+VentaSerializer	app/serializers/mis/operaciones/venta_serializer.rb	/^class Mis::Operaciones::VentaSerializer < ActiveModel::Serializer$/;"	c	class:Mis.Operaciones	inherits:ActiveModel.Serializer
+VentasController	app/controllers/mis/operaciones/ventas_controller.rb	/^class Mis::Operaciones::VentasController < ApplicationController$/;"	c	class:Mis.Operaciones	inherits:ApplicationController
+acceso_ids	app/models/ba/usuario.rb	/^  has_many :accesos$/;"	F	class:Ba.Usuario
+acceso_ids	app/models/mi/empresa.rb	/^  has_many :accesos, dependent: :destroy, class_name: 'Ba::Acceso'$/;"	F	class:Mi.Empresa
+acceso_ids=	app/models/ba/usuario.rb	/^  has_many :accesos$/;"	F	class:Ba.Usuario
+acceso_ids=	app/models/mi/empresa.rb	/^  has_many :accesos, dependent: :destroy, class_name: 'Ba::Acceso'$/;"	F	class:Mi.Empresa
+accesos	app/models/ba/usuario.rb	/^  has_many :accesos$/;"	F	class:Ba.Usuario
+accesos	app/models/mi/empresa.rb	/^  has_many :accesos, dependent: :destroy, class_name: 'Ba::Acceso'$/;"	F	class:Mi.Empresa
+accesos=	app/models/ba/usuario.rb	/^  has_many :accesos$/;"	F	class:Ba.Usuario
+accesos=	app/models/mi/empresa.rb	/^  has_many :accesos, dependent: :destroy, class_name: 'Ba::Acceso'$/;"	F	class:Mi.Empresa
+actualizar_password	./app/assets/javascripts/controllers/ba/usuarios/main-ctrl.coffee	/^  \$scope.actualizar_password = ->$/;"	f	line:3	language:coffee	object:window
+actualizar_tarjetas	app/models/ad/secretaria.rb	/^  def actualizar_tarjetas(anotacion = {})$/;"	f	class:Ad.Secretaria
+addScopeMethods	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          addScopeMethods: ->$/;"	f	line:163	language:coffee	object:exports.defaultConfigName.get
+add_item	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^    \$scope.add_item = ->$/;"	f	line:50	language:coffee	object:set_organizaciones_url
+after_initialize	app/models/mi.rb	/^  def after_initialize$/;"	f	class:Mi
+after_initialize	app/models/mi/base.rb	/^  def after_initialize$/;"	f	class:Mi.Base
+age_token	spec/support/login_helpers.rb	/^  def age_token(user, client_id)$/;"	f	class:LoginHelpers
+ajenas	app/models/ba/organizacion.rb	/^  scope :ajenas, -> (uid) { where('id not in (?)', Ba::Acceso.where(usuario_id: uid).collect(&:empresa_id) ) }$/;"	F	class:Ba.Organizacion
+archivar	./app/assets/javascripts/controllers/mi/corcho.coffee	/^  \$scope.archivar = (item_id, index) ->$/;"	f	line:9	language:coffee	object:window
+archivar	./app/assets/javascripts/controllers/mi/escritorio.coffee	/^  \$scope.archivar = (item_id, index) ->$/;"	f	line:8	language:coffee	object:window
+archivar	./app/assets/javascripts/services/fw/tarjetas-manager.coffee	/^  archivar: (item_id) ->$/;"	f	line:3	language:coffee	object:window
+archivar	app/controllers/mis/tarjetas_controller.rb	/^  def archivar$/;"	f	class:Mis.TarjetasController
+archivo	app/models/en/recepcion.rb	/^  attr_reader :escritorio, :corcho, :archivo$/;"	f	class:En.Recepcion
+archivo	app/models/mi/escritorio.rb	/^  def archivo$/;"	f	class:Mi.Escritorio
+armar_tarjeta	app/models/ad/secretaria.rb	/^  def armar_tarjeta anotacion, tarjeta$/;"	f	class:Ad.Secretaria
+asiento	app/models/co/item.rb	/^  belongs_to :asiento$/;"	F	class:Co.Item
+asiento	app/models/op/base.rb	/^  belongs_to :asiento, class_name: 'Co::Asiento', dependent: :destroy$/;"	F	class:Op.Base
+asiento=	app/models/co/item.rb	/^  belongs_to :asiento$/;"	F	class:Co.Item
+asiento=	app/models/op/base.rb	/^  belongs_to :asiento, class_name: 'Co::Asiento', dependent: :destroy$/;"	F	class:Op.Base
+balanceado?	app/models/co/asiento.rb	/^def balanceado?$/;"	f	class:Co.Asiento
+banco	app/models/tb/cbu.rb	/^	attr_accessor :cbu, :cuenta, :banco, :sucursal$/;"	f	class:Tb.Cbu
+banco=	app/models/tb/cbu.rb	/^	attr_accessor :cbu, :cuenta, :banco, :sucursal$/;"	f	class:Tb.Cbu
+base	app/models/op/condicion.rb	/^  belongs_to :base$/;"	F	class:Op.Condicion
+base	app/models/op/item.rb	/^  belongs_to :base$/;"	F	class:Op.Item
+base=	app/models/op/condicion.rb	/^  belongs_to :base$/;"	F	class:Op.Condicion
+base=	app/models/op/item.rb	/^  belongs_to :base$/;"	F	class:Op.Item
+bloque	app/models/tb/cbu.rb	/^	def bloque$/;"	f	class:Tb.Cbu
+body	./app/assets/javascripts/services/fw/content-provider.coffee	/^  body: (meta_datos) ->$/;"	f	line:6	language:coffee	object:window
+borrar	./app/assets/javascripts/controllers/fw/resourses/index-ctrl.coffee	/^  \$scope.borrar = () ->$/;"	f	line:14	language:coffee	object:window
+buildAuthHeaders	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          buildAuthHeaders: (ctx) ->$/;"	f	line:667	language:coffee	object:exports.defaultConfigName.get
+buildAuthUrl	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          buildAuthUrl: (omniauthWindowType, provider, opts={}) ->$/;"	f	line:332	language:coffee	object:exports.defaultConfigName.get
+buildQueryString	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          buildQueryString: (param, prefix) ->$/;"	f	line:424	language:coffee	object:exports.defaultConfigName.get
+build_asiento	app/models/co/item.rb	/^  belongs_to :asiento$/;"	F	class:Co.Item
+build_asiento	app/models/op/base.rb	/^  belongs_to :asiento, class_name: 'Co::Asiento', dependent: :destroy$/;"	F	class:Op.Base
+build_base	app/models/op/condicion.rb	/^  belongs_to :base$/;"	F	class:Op.Condicion
+build_base	app/models/op/item.rb	/^  belongs_to :base$/;"	F	class:Op.Item
+build_c_cta	app/models/co/impuesto.rb	/^  belongs_to :c_cta, class_name: 'Co::Cuenta'$/;"	F	class:Co.Impuesto
+build_cliente	app/models/ba/relacion.rb	/^  belongs_to :cliente, foreign_key: 'organizacion_id', class_name: 'Ba::Organizacion'$/;"	F	class:Ba.Relacion
+build_cta_compra	app/models/ba/producto.rb	/^  belongs_to :cta_compra, class_name: "Co::Cuenta"$/;"	F	class:Ba.Producto
+build_cta_venta	app/models/ba/producto.rb	/^  belongs_to :cta_venta, class_name: "Co::Cuenta"$/;"	F	class:Ba.Producto
+build_d_cta	app/models/co/impuesto.rb	/^  belongs_to :d_cta, class_name: 'Co::Cuenta'  $/;"	F	class:Co.Impuesto
+build_empresa	app/models/ba/acceso.rb	/^  belongs_to :empresa, class_name: 'Mi::Empresa'$/;"	F	class:Ba.Acceso
+build_empresa	app/models/ba/relacion.rb	/^  belongs_to :empresa, foreign_key: 'empresa_id', class_name: 'Mi::Empresa'$/;"	F	class:Ba.Relacion
+build_empresa	app/models/op/base.rb	/^  belongs_to :empresa, class_name: 'Mi::Empresa'$/;"	F	class:Op.Base
+build_impuesto	app/models/ba/producto.rb	/^  belongs_to :impuesto, class_name: "Co::Impuesto"$/;"	F	class:Ba.Producto
+build_impuesto	app/models/op/item.rb	/^  belongs_to :impuesto, class_name: 'Co::Impuesto'$/;"	F	class:Op.Item
+build_item	app/controllers/concerns/globales.rb	/^  def build_item$/;"	f	class:Globales.Empresa
+build_item	app/controllers/concerns/globales.rb	/^  def build_item$/;"	f	class:Globales.Usuario
+build_item	app/controllers/mi/empresa_controller.rb	/^  def build_item$/;"	f	class:Mi.EmpresaController
+build_item_if_empty	app/models/op/base.rb	/^    def build_item_if_empty$/;"	f	class:Op.Base
+build_moneda	app/models/co/asiento.rb	/^  belongs_to :moneda$/;"	F	class:Co.Asiento
+build_moneda	app/models/co/cotizacion.rb	/^  belongs_to :moneda$/;"	F	class:Co.Cotizacion
+build_organizacion	app/models/ba/relacion.rb	/^  belongs_to :organizacion, foreign_key: 'organizacion_id', class_name: 'Ba::Organizacion'$/;"	F	class:Ba.Relacion
+build_organizacion	app/models/mis/operaciones/compra.rb	/^  belongs_to :organizacion, class_name: 'Ba::Organizacion'$/;"	F	class:Mis.Operaciones.Compra
+build_organizacion	app/models/mis/operaciones/venta.rb	/^  belongs_to :organizacion, class_name: 'Ba::Organizacion'$/;"	F	class:Mis.Operaciones.Venta
+build_producto	app/models/op/item.rb	/^  belongs_to :producto, class_name: 'Ba::Producto'$/;"	F	class:Op.Item
+build_proveedor	app/models/ba/relacion.rb	/^  belongs_to :proveedor, foreign_key: 'organizacion_id', class_name: 'Ba::Organizacion'$/;"	F	class:Ba.Relacion
+build_rol	app/models/ba/acceso.rb	/^  belongs_to :rol$/;"	F	class:Ba.Acceso
+build_usuario	app/models/ba/acceso.rb	/^  belongs_to :usuario$/;"	F	class:Ba.Acceso
+buscar	app/models/fw/diccionario.rb	/^  def buscar(opt = {})$/;"	f	class:Fw.Diccionario
+buscar_tarjeta	app/models/ad/secretaria.rb	/^  def buscar_tarjeta$/;"	f	class:Ad.Secretaria
+buscar_tarjetas	app/models/ad/secretaria.rb	/^  def buscar_tarjetas$/;"	f	class:Ad.Secretaria
+busqueda_especifica	app/models/fw/diccionario.rb	/^  def busqueda_especifica(col, dicc)$/;"	f	class:Fw.Diccionario
+busqueda_general	app/models/fw/diccionario.rb	/^  def busqueda_general(col, dicc)$/;"	f	class:Fw.Diccionario
+c_cta	app/models/co/impuesto.rb	/^  belongs_to :c_cta, class_name: 'Co::Cuenta'$/;"	F	class:Co.Impuesto
+c_cta=	app/models/co/impuesto.rb	/^  belongs_to :c_cta, class_name: 'Co::Cuenta'$/;"	F	class:Co.Impuesto
+calcular_globales	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^    calcular_globales = (req_by) ->$/;"	f	line:74	language:coffee	object:set_organizaciones_url
+calcular_importe	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^    calcular_importe = (item) ->$/;"	f	line:68	language:coffee	object:set_organizaciones_url
+cambiar_empresa	./app/assets/javascripts/services/fw/session-manager.coffee	/^  cambiar_empresa: (id) ->$/;"	f	line:5	language:coffee	object:window
+cambiar_empresa	app/controllers/sesion_controller.rb	/^  def cambiar_empresa$/;"	f	class:SesionController
+cambiar_pantalla	./app/assets/javascripts/controllers/fw/sesiones/main-ctrl.coffee	/^  \$scope.cambiar_pantalla = (pantalla) ->$/;"	f	line:11	language:coffee	object:window
+cancel	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          cancel: (reason) ->$/;"	f	line:117	language:coffee	object:exports.defaultConfigName.get
+cancelOmniauthInAppBrowserListeners	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            this.cancelOmniauthInAppBrowserListeners = () ->$/;"	f	line:379	language:coffee	object:exports.defaultConfigName.get.requestCredentialsViaExecuteScript
+cbu	app/models/tb/cbu.rb	/^	attr_accessor :cbu, :cuenta, :banco, :sucursal$/;"	f	class:Tb.Cbu
+cbu=	app/models/tb/cbu.rb	/^	attr_accessor :cbu, :cuenta, :banco, :sucursal$/;"	f	class:Tb.Cbu
+ch	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^      \$scope.ch = (item, req_by) ->$/;"	f	line:38	language:coffee	object:set_organizaciones_url
+change	db/migrate/20151218205624_add_cuenta_id_to_imp.rb	/^  def change$/;"	f	class:AddCuentaIdToImp
+change	db/migrate/20151221142636_set_debe_haber_defaults.rb	/^  def change$/;"	f	class:SetDebeHaberDefaults
+change	db/migrate/20151221155447_add_cuenta_credy_deb_to_imp.rb	/^  def change$/;"	f	class:AddCuentaCredyDebToImp
+change	db/migrate/20151221174439_add_asiento_id_to_base.rb	/^  def change$/;"	f	class:AddAsientoIdToBase
+change	db/migrate/20151222144805_add_impuestos_hstore_to_op_base.rb	/^  def change$/;"	f	class:AddImpuestosHstoreToOpBase
+change	db/migrate/20151222154220_add_impuesto_to_items.rb	/^  def change$/;"	f	class:AddImpuestoToItems
+change	db/migrate/20151222192244_change_detalle_to_json.rb	/^  def change$/;"	f	class:ChangeDetalleToJson
+change	db/migrate/20151228153757_add_impuesto_to_producto.rb	/^  def change$/;"	f	class:AddImpuestoToProducto
+change	db/migrate/20151228155013_delete_impuesto_from_item.rb	/^  def change$/;"	f	class:DeleteImpuestoFromItem
+change	db/migrate/20151228191209_add_impuesto_id_to_op_item.rb	/^  def change$/;"	f	class:AddImpuestoIdToOpItem
+change	db/migrate/20160118141315_add_c_pto_base.rb	/^  def change$/;"	f	class:AddCPtoBase
+change	db/migrate/20160118150906_set_c_pdefault.rb	/^  def change$/;"	f	class:SetCPdefault
+change	db/migrate/20160225140126_create_op_condiciones.rb	/^  def change$/;"	f	class:CreateOpCondiciones
+change	db/migrate/20160225143022_remove_cond_pago_base.rb	/^  def change$/;"	f	class:RemoveCondPagoBase
+check	app/models/ad/secretaria.rb	/^  def check obj$/;"	f	class:Ad.Secretaria
+check_importe	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^    check_importe = (item) ->$/;"	f	line:71	language:coffee	object:set_organizaciones_url
+check_in	app/models/en/recepcion.rb	/^  def check_in$/;"	f	class:En.Recepcion
+chequear_sesion	./app/assets/javascripts/appuu.coffee	/^  chequear_sesion = () ->$/;"	f	line:8	language:coffee	object:window
+cliente	app/models/ba/relacion.rb	/^  belongs_to :cliente, foreign_key: 'organizacion_id', class_name: 'Ba::Organizacion'$/;"	F	class:Ba.Relacion
+cliente=	app/models/ba/relacion.rb	/^  belongs_to :cliente, foreign_key: 'organizacion_id', class_name: 'Ba::Organizacion'$/;"	F	class:Ba.Relacion
+cliente_ids	app/models/mi/empresa.rb	/^  has_many :clientes, through: :rel_cli$/;"	F	class:Mi.Empresa
+cliente_ids=	app/models/mi/empresa.rb	/^  has_many :clientes, through: :rel_cli$/;"	F	class:Mi.Empresa
+clientes	app/models/mi/empresa.rb	/^  has_many :clientes, through: :rel_cli$/;"	F	class:Mi.Empresa
+clientes=	app/models/mi/empresa.rb	/^  has_many :clientes, through: :rel_cli$/;"	F	class:Mi.Empresa
+code	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            authWindow.executeScript({code: 'requestCredentials()'}, (response) ->$/;"	f	line:387	language:coffee	object:exports.defaultConfigName.get.requestCredentialsViaExecuteScript
+columnas	app/models/fw/traductor.rb	/^  def columnas$/;"	f	class:Fw.Traductor
+condicione_ids	app/models/op/base.rb	/^  has_many :condiciones, dependent: :destroy$/;"	F	class:Op.Base
+condicione_ids=	app/models/op/base.rb	/^  has_many :condiciones, dependent: :destroy$/;"	F	class:Op.Base
+condiciones	app/models/op/base.rb	/^  has_many :condiciones, dependent: :destroy$/;"	F	class:Op.Base
+condiciones=	app/models/op/base.rb	/^  has_many :condiciones, dependent: :destroy$/;"	F	class:Op.Base
+configure	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^      configure: (params) ->$/;"	f	line:50	language:coffee	object:exports.defaultConfigName
+confirmationSuccessUrl	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^        confirmationSuccessUrl:  -> window.location.href$/;"	f	line:14	language:coffee	object:exports.configs.default
+const_missing	app/models/pr/unidad.rb	/^  def self.const_missing name$/;"	F	class:Pr.Unidad
+construir_ficha	./app/assets/javascripts/services/fw/resourse-manager.coffee	/^  construir_ficha: (meta_datos) ->$/;"	f	line:15	language:coffee	object:window
+contabiliza	app/models/ad/auxiliar.rb	/^  def contabiliza$/;"	f	class:Ad.Auxiliar
+contabiliza	app/models/op/base.rb	/^    def contabiliza$/;"	f	class:Op.Base
+corcho	./app/assets/javascripts/controllers/mi/archivo.coffee	/^  corcho = ResourseManager.resource()$/;"	o	line:4	language:coffee	object:window
+corcho	./app/assets/javascripts/controllers/mi/corcho.coffee	/^  corcho = ResourseManager.resource()$/;"	o	line:4	language:coffee	object:window
+corcho	app/models/en/recepcion.rb	/^  attr_reader :escritorio, :corcho, :archivo$/;"	f	class:En.Recepcion
+corcho	app/models/mi/escritorio.rb	/^  def corcho$/;"	f	class:Mi.Escritorio
+corregir	app/models/tb/cbu.rb	/^	def corregir$/;"	f	class:Tb.Cbu
+crear	./app/assets/javascripts/services/fw/tarjetas-manager.coffee	/^  crear: (objeto_id, underscored_klass) ->$/;"	f	line:9	language:coffee	object:window
+crear_cuenta	./app/assets/javascripts/controllers/fw/sesiones/main-ctrl.coffee	/^  \$scope.crear_cuenta = ->$/;"	f	line:18	language:coffee	object:window
+crear_tarjeta	app/models/ad/secretaria.rb	/^  def crear_tarjeta anotacion$/;"	f	class:Ad.Secretaria
+create	app/controllers/ba/organizaciones_controller.rb	/^  def create$/;"	f	class:Ba.OrganizacionesController
+create	app/controllers/co/cuentas_controller.rb	/^  def create$/;"	f	class:Co.CuentasController
+create	app/controllers/co/impuestos_controller.rb	/^  def create$/;"	f	class:Co.ImpuestosController
+create	app/controllers/fw/notas_controller.rb	/^  def create$/;"	f	class:Fw.NotasController
+create	app/controllers/fw/tarjetas_controller.rb	/^  def create$/;"	f	class:Fw.TarjetasController
+create	app/controllers/in/depositos_controller.rb	/^  def create$/;"	f	class:In.DepositosController
+create	app/controllers/mi/empresa_controller.rb	/^  def create$/;"	f	class:Mi.EmpresaController
+create	app/controllers/mis/cuentas/bancos_controller.rb	/^  def create$/;"	f	class:Mis.Cuentas.BancosController
+create	app/controllers/mis/cuentas/cajas_controller.rb	/^  def create$/;"	f	class:Mis.Cuentas.CajasController
+create	app/controllers/mis/cuentas/egresos_controller.rb	/^  def create$/;"	f	class:Mis.Cuentas.EgresosController
+create	app/controllers/mis/cuentas/ingresos_controller.rb	/^  def create$/;"	f	class:Mis.Cuentas.IngresosController
+create	app/controllers/mis/cuentas/tarjetas_controller.rb	/^  def create$/;"	f	class:Mis.Cuentas.TarjetasController
+create	app/controllers/mis/operaciones/compras_controller.rb	/^  def create$/;"	f	class:Mis.Operaciones.ComprasController
+create	app/controllers/mis/operaciones/ventas_controller.rb	/^  def create$/;"	f	class:Mis.Operaciones.VentasController
+create	app/controllers/mis/organizaciones/clientes_controller.rb	/^	def create$/;"	f	class:Mis.Organizaciones.ClientesController
+create	app/controllers/mis/organizaciones/proveedores_controller.rb	/^	def create$/;"	f	class:Mis.Organizaciones.ProveedoresController
+create	app/controllers/op/egresos_controller.rb	/^  def create$/;"	f	class:Op.EgresosController
+create	app/controllers/pr/bienes_controller.rb	/^  def create$/;"	f	class:Pr.BienesController
+create	app/controllers/pr/servicios_controller.rb	/^  def create$/;"	f	class:Pr.ServiciosController
+create	app/controllers/pr/unidades_controller.rb	/^  def create$/;"	f	class:Pr.UnidadesController
+createPopup	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          createPopup: (url) ->$/;"	f	line:409	language:coffee	object:exports.defaultConfigName.get
+create_asiento	app/models/co/item.rb	/^  belongs_to :asiento$/;"	F	class:Co.Item
+create_asiento	app/models/op/base.rb	/^  belongs_to :asiento, class_name: 'Co::Asiento', dependent: :destroy$/;"	F	class:Op.Base
+create_asiento!	app/models/co/item.rb	/^  belongs_to :asiento$/;"	F	class:Co.Item
+create_asiento!	app/models/op/base.rb	/^  belongs_to :asiento, class_name: 'Co::Asiento', dependent: :destroy$/;"	F	class:Op.Base
+create_base	app/models/op/condicion.rb	/^  belongs_to :base$/;"	F	class:Op.Condicion
+create_base	app/models/op/item.rb	/^  belongs_to :base$/;"	F	class:Op.Item
+create_base!	app/models/op/condicion.rb	/^  belongs_to :base$/;"	F	class:Op.Condicion
+create_base!	app/models/op/item.rb	/^  belongs_to :base$/;"	F	class:Op.Item
+create_c_cta	app/models/co/impuesto.rb	/^  belongs_to :c_cta, class_name: 'Co::Cuenta'$/;"	F	class:Co.Impuesto
+create_c_cta!	app/models/co/impuesto.rb	/^  belongs_to :c_cta, class_name: 'Co::Cuenta'$/;"	F	class:Co.Impuesto
+create_cliente	app/models/ba/relacion.rb	/^  belongs_to :cliente, foreign_key: 'organizacion_id', class_name: 'Ba::Organizacion'$/;"	F	class:Ba.Relacion
+create_cliente!	app/models/ba/relacion.rb	/^  belongs_to :cliente, foreign_key: 'organizacion_id', class_name: 'Ba::Organizacion'$/;"	F	class:Ba.Relacion
+create_cta_compra	app/models/ba/producto.rb	/^  belongs_to :cta_compra, class_name: "Co::Cuenta"$/;"	F	class:Ba.Producto
+create_cta_compra!	app/models/ba/producto.rb	/^  belongs_to :cta_compra, class_name: "Co::Cuenta"$/;"	F	class:Ba.Producto
+create_cta_venta	app/models/ba/producto.rb	/^  belongs_to :cta_venta, class_name: "Co::Cuenta"$/;"	F	class:Ba.Producto
+create_cta_venta!	app/models/ba/producto.rb	/^  belongs_to :cta_venta, class_name: "Co::Cuenta"$/;"	F	class:Ba.Producto
+create_d_cta	app/models/co/impuesto.rb	/^  belongs_to :d_cta, class_name: 'Co::Cuenta'  $/;"	F	class:Co.Impuesto
+create_d_cta!	app/models/co/impuesto.rb	/^  belongs_to :d_cta, class_name: 'Co::Cuenta'  $/;"	F	class:Co.Impuesto
+create_empresa	app/models/ba/acceso.rb	/^  belongs_to :empresa, class_name: 'Mi::Empresa'$/;"	F	class:Ba.Acceso
+create_empresa	app/models/ba/relacion.rb	/^  belongs_to :empresa, foreign_key: 'empresa_id', class_name: 'Mi::Empresa'$/;"	F	class:Ba.Relacion
+create_empresa	app/models/op/base.rb	/^  belongs_to :empresa, class_name: 'Mi::Empresa'$/;"	F	class:Op.Base
+create_empresa!	app/models/ba/acceso.rb	/^  belongs_to :empresa, class_name: 'Mi::Empresa'$/;"	F	class:Ba.Acceso
+create_empresa!	app/models/ba/relacion.rb	/^  belongs_to :empresa, foreign_key: 'empresa_id', class_name: 'Mi::Empresa'$/;"	F	class:Ba.Relacion
+create_empresa!	app/models/op/base.rb	/^  belongs_to :empresa, class_name: 'Mi::Empresa'$/;"	F	class:Op.Base
+create_impuesto	app/models/ba/producto.rb	/^  belongs_to :impuesto, class_name: "Co::Impuesto"$/;"	F	class:Ba.Producto
+create_impuesto	app/models/op/item.rb	/^  belongs_to :impuesto, class_name: 'Co::Impuesto'$/;"	F	class:Op.Item
+create_impuesto!	app/models/ba/producto.rb	/^  belongs_to :impuesto, class_name: "Co::Impuesto"$/;"	F	class:Ba.Producto
+create_impuesto!	app/models/op/item.rb	/^  belongs_to :impuesto, class_name: 'Co::Impuesto'$/;"	F	class:Op.Item
+create_moneda	app/models/co/asiento.rb	/^  belongs_to :moneda$/;"	F	class:Co.Asiento
+create_moneda	app/models/co/cotizacion.rb	/^  belongs_to :moneda$/;"	F	class:Co.Cotizacion
+create_moneda!	app/models/co/asiento.rb	/^  belongs_to :moneda$/;"	F	class:Co.Asiento
+create_moneda!	app/models/co/cotizacion.rb	/^  belongs_to :moneda$/;"	F	class:Co.Cotizacion
+create_organizacion	app/models/ba/relacion.rb	/^  belongs_to :organizacion, foreign_key: 'organizacion_id', class_name: 'Ba::Organizacion'$/;"	F	class:Ba.Relacion
+create_organizacion	app/models/mis/operaciones/compra.rb	/^  belongs_to :organizacion, class_name: 'Ba::Organizacion'$/;"	F	class:Mis.Operaciones.Compra
+create_organizacion	app/models/mis/operaciones/venta.rb	/^  belongs_to :organizacion, class_name: 'Ba::Organizacion'$/;"	F	class:Mis.Operaciones.Venta
+create_organizacion!	app/models/ba/relacion.rb	/^  belongs_to :organizacion, foreign_key: 'organizacion_id', class_name: 'Ba::Organizacion'$/;"	F	class:Ba.Relacion
+create_organizacion!	app/models/mis/operaciones/compra.rb	/^  belongs_to :organizacion, class_name: 'Ba::Organizacion'$/;"	F	class:Mis.Operaciones.Compra
+create_organizacion!	app/models/mis/operaciones/venta.rb	/^  belongs_to :organizacion, class_name: 'Ba::Organizacion'$/;"	F	class:Mis.Operaciones.Venta
+create_producto	app/models/op/item.rb	/^  belongs_to :producto, class_name: 'Ba::Producto'$/;"	F	class:Op.Item
+create_producto!	app/models/op/item.rb	/^  belongs_to :producto, class_name: 'Ba::Producto'$/;"	F	class:Op.Item
+create_proveedor	app/models/ba/relacion.rb	/^  belongs_to :proveedor, foreign_key: 'organizacion_id', class_name: 'Ba::Organizacion'$/;"	F	class:Ba.Relacion
+create_proveedor!	app/models/ba/relacion.rb	/^  belongs_to :proveedor, foreign_key: 'organizacion_id', class_name: 'Ba::Organizacion'$/;"	F	class:Ba.Relacion
+create_rol	app/models/ba/acceso.rb	/^  belongs_to :rol$/;"	F	class:Ba.Acceso
+create_rol!	app/models/ba/acceso.rb	/^  belongs_to :rol$/;"	F	class:Ba.Acceso
+create_usuario	app/models/ba/acceso.rb	/^  belongs_to :usuario$/;"	F	class:Ba.Acceso
+create_usuario!	app/models/ba/acceso.rb	/^  belongs_to :usuario$/;"	F	class:Ba.Acceso
+crudo	app/models/fw/traductor.rb	/^  def crudo(dicc)$/;"	f	class:Fw.Traductor
+cta_compra	app/models/ba/producto.rb	/^  belongs_to :cta_compra, class_name: "Co::Cuenta"$/;"	F	class:Ba.Producto
+cta_compra=	app/models/ba/producto.rb	/^  belongs_to :cta_compra, class_name: "Co::Cuenta"$/;"	F	class:Ba.Producto
+cta_venta	app/models/ba/producto.rb	/^  belongs_to :cta_venta, class_name: "Co::Cuenta"$/;"	F	class:Ba.Producto
+cta_venta=	app/models/ba/producto.rb	/^  belongs_to :cta_venta, class_name: "Co::Cuenta"$/;"	F	class:Ba.Producto
+cuenta	app/models/tb/cbu.rb	/^	attr_accessor :cbu, :cuenta, :banco, :sucursal$/;"	f	class:Tb.Cbu
+cuenta=	app/models/tb/cbu.rb	/^	attr_accessor :cbu, :cuenta, :banco, :sucursal$/;"	f	class:Tb.Cbu
+cuota_irreg_sume_100	app/models/op/condicion.rb	/^  def cuota_irreg_sume_100$/;"	f	class:Op.Condicion
+d_cta	app/models/co/impuesto.rb	/^  belongs_to :d_cta, class_name: 'Co::Cuenta'  $/;"	F	class:Co.Impuesto
+d_cta=	app/models/co/impuesto.rb	/^  belongs_to :d_cta, class_name: 'Co::Cuenta'  $/;"	F	class:Co.Impuesto
+debe_o_haber_diferente_a_cero?	app/models/co/item.rb	/^  def debe_o_haber_diferente_a_cero?$/;"	f	class:Co.Item
+debe_o_haber_en_cero?	app/models/co/item.rb	/^  def debe_o_haber_en_cero?$/;"	f	class:Co.Item
+deleteData	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          deleteData: (key) ->$/;"	f	line:698	language:coffee	object:exports.defaultConfigName.get
+delete_item	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^    \$scope.delete_item = (item)->$/;"	f	line:53	language:coffee	object:set_organizaciones_url
+deshabilito	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^    \$scope.deshabilito = (item) ->$/;"	f	line:107	language:coffee	object:set_organizaciones_url
+destroy	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          destroy: ->$/;"	f	line:134	language:coffee	object:exports.defaultConfigName.get
+destroy	app/controllers/ba/organizaciones_controller.rb	/^  def destroy$/;"	f	class:Ba.OrganizacionesController
+destroy	app/controllers/co/cuentas_controller.rb	/^  def destroy$/;"	f	class:Co.CuentasController
+destroy	app/controllers/co/impuestos_controller.rb	/^  def destroy$/;"	f	class:Co.ImpuestosController
+destroy	app/controllers/fw/notas_controller.rb	/^  def destroy$/;"	f	class:Fw.NotasController
+destroy	app/controllers/in/depositos_controller.rb	/^  def destroy$/;"	f	class:In.DepositosController
+destroy	app/controllers/mi/empresa_controller.rb	/^  def destroy$/;"	f	class:Mi.EmpresaController
+destroy	app/controllers/mi/perfil_controller.rb	/^  def destroy$/;"	f	class:Mi.PerfilController
+destroy	app/controllers/mis/cuentas/bancos_controller.rb	/^  def destroy$/;"	f	class:Mis.Cuentas.BancosController
+destroy	app/controllers/mis/cuentas/cajas_controller.rb	/^  def destroy$/;"	f	class:Mis.Cuentas.CajasController
+destroy	app/controllers/mis/cuentas/egresos_controller.rb	/^  def destroy$/;"	f	class:Mis.Cuentas.EgresosController
+destroy	app/controllers/mis/cuentas/ingresos_controller.rb	/^  def destroy$/;"	f	class:Mis.Cuentas.IngresosController
+destroy	app/controllers/mis/cuentas/tarjetas_controller.rb	/^  def destroy$/;"	f	class:Mis.Cuentas.TarjetasController
+destroy	app/controllers/mis/operaciones/compras_controller.rb	/^  def destroy$/;"	f	class:Mis.Operaciones.ComprasController
+destroy	app/controllers/mis/operaciones/ventas_controller.rb	/^  def destroy$/;"	f	class:Mis.Operaciones.VentasController
+destroy	app/controllers/mis/organizaciones/clientes_controller.rb	/^	def destroy$/;"	f	class:Mis.Organizaciones.ClientesController
+destroy	app/controllers/mis/organizaciones/proveedores_controller.rb	/^	def destroy$/;"	f	class:Mis.Organizaciones.ProveedoresController
+destroy	app/controllers/op/egresos_controller.rb	/^  def destroy$/;"	f	class:Op.EgresosController
+destroy	app/controllers/pr/bienes_controller.rb	/^  def destroy$/;"	f	class:Pr.BienesController
+destroy	app/controllers/pr/servicios_controller.rb	/^  def destroy$/;"	f	class:Pr.ServiciosController
+destroy	app/controllers/pr/unidades_controller.rb	/^  def destroy$/;"	f	class:Pr.UnidadesController
+diccionario	app/models/fw/traductor.rb	/^  attr_reader :klass, :diccionario$/;"	f	class:Fw.Traductor
+dirigidas_a	app/models/fw/tarjeta.rb	/^  scope :dirigidas_a, ->  (usuario_id) { where("#{usuario_id} = ANY (dirigida_a)") }$/;"	F	class:Fw.Tarjeta
+dv	app/models/tb/cbu.rb	/^	def dv(codigo)$/;"	f	class:Tb.Cbu
+empresa	app/models/ba/acceso.rb	/^  belongs_to :empresa, class_name: 'Mi::Empresa'$/;"	F	class:Ba.Acceso
+empresa	app/models/ba/relacion.rb	/^  belongs_to :empresa, foreign_key: 'empresa_id', class_name: 'Mi::Empresa'$/;"	F	class:Ba.Relacion
+empresa	app/models/fw/scope.rb	/^  scope :empresa, -> (klass, value) { where("gid like '%#{klass}%' and '#{value}' = ANY (incluido) or gid like '%#{klass}%' and publico = true and not '#{value}' = ANY (excluido)") }$/;"	F	class:Fw.Scope
+empresa	app/models/op/base.rb	/^  belongs_to :empresa, class_name: 'Mi::Empresa'$/;"	F	class:Op.Base
+empresa=	app/models/ba/acceso.rb	/^  belongs_to :empresa, class_name: 'Mi::Empresa'$/;"	F	class:Ba.Acceso
+empresa=	app/models/ba/relacion.rb	/^  belongs_to :empresa, foreign_key: 'empresa_id', class_name: 'Mi::Empresa'$/;"	F	class:Ba.Relacion
+empresa=	app/models/op/base.rb	/^  belongs_to :empresa, class_name: 'Mi::Empresa'$/;"	F	class:Op.Base
+empresa_actual	./app/assets/javascripts/services/fw/session-manager.coffee	/^  empresa_actual: ->$/;"	f	line:3	language:coffee	object:window
+empresa_ids	app/models/ba/usuario.rb	/^  has_many :empresas, through: :accesos, class_name: 'Mi::Empresa', foreign_key: 'organizacion_id'$/;"	F	class:Ba.Usuario
+empresa_ids=	app/models/ba/usuario.rb	/^  has_many :empresas, through: :accesos, class_name: 'Mi::Empresa', foreign_key: 'organizacion_id'$/;"	F	class:Ba.Usuario
+empresas	app/models/ba/usuario.rb	/^  has_many :empresas, through: :accesos, class_name: 'Mi::Empresa', foreign_key: 'organizacion_id'$/;"	F	class:Ba.Usuario
+empresas=	app/models/ba/usuario.rb	/^  has_many :empresas, through: :accesos, class_name: 'Mi::Empresa', foreign_key: 'organizacion_id'$/;"	F	class:Ba.Usuario
+encabezado	spec/support/api_helpers.rb	/^  def encabezado$/;"	f	class:ApiHelpers
+encabezado_con_contenido	spec/support/api_helpers.rb	/^  def encabezado_con_contenido$/;"	f	class:ApiHelpers
+encerador	./app/assets/javascripts/directives/fw/au-mask.coffee	/^    encerador = (val, ceros) ->$/;"	f	line:20	language:coffee	object:link
+entorno	app/models/mi/base.rb	/^  attr_reader :entorno, :escritorio$/;"	f	class:Mi.Base
+escritorio	./app/assets/javascripts/controllers/mi/escritorio.coffee	/^  escritorio = ResourseManager.resource()$/;"	o	line:3	language:coffee	object:window
+escritorio	app/models/en/recepcion.rb	/^  attr_reader :escritorio, :corcho, :archivo$/;"	f	class:En.Recepcion
+escritorio	app/models/mi/base.rb	/^  attr_reader :entorno, :escritorio$/;"	f	class:Mi.Base
+especifico	app/models/fw/diccionario.rb	/^  def especifico(dicc)$/;"	f	class:Fw.Diccionario
+estado_tarjeta	app/models/concerns/standard.rb	/^  def estado_tarjeta$/;"	f	class:Standard.Tarjeteable
+expire_token	spec/support/login_helpers.rb	/^  def expire_token(user, client_id)$/;"	f	class:LoginHelpers
+exports	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^  module.exports = 'ng-token-auth'$/;"	o	line:2	language:coffee	object:window
+ficha	./app/assets/javascripts/services/fw/resourse-manager.coffee	/^  ficha: ->$/;"	f	line:5	language:coffee	object:window
+ficha	app/controllers/fw/traductor_controller.rb	/^  def ficha$/;"	f	class:Fw.TraductorController
+ficha	app/models/fw/traductor.rb	/^  def ficha$/;"	f	class:Fw.Traductor
+ficha_terminada	app/models/fw/traductor.rb	/^  def ficha_terminada$/;"	f	class:Fw.Traductor
+fijar	./app/assets/javascripts/controllers/mi/archivo.coffee	/^  \$scope.fijar = (item_id, index) ->$/;"	f	line:9	language:coffee	object:window
+fijar	./app/assets/javascripts/controllers/mi/corcho.coffee	/^  \$scope.fijar = (item_id, index) ->$/;"	f	line:13	language:coffee	object:window
+fijar	./app/assets/javascripts/services/fw/tarjetas-manager.coffee	/^  fijar: (item_id) ->$/;"	f	line:7	language:coffee	object:window
+fijar	app/controllers/mis/tarjetas_controller.rb	/^  def fijar$/;"	f	class:Mis.TarjetasController
+filtrado	app/models/fw/traductor.rb	/^  def filtrado$/;"	f	class:Fw.Traductor
+footer	./app/assets/javascripts/services/fw/content-provider.coffee	/^  footer: ->$/;"	f	line:31	language:coffee	object:window
+for 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^                  for key, val of @getConfig().tokenFormat$/;"	b	line:271	language:coffee
+for 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            for i of pairs$/;"	b	line:440	language:coffee
+for 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            for k, v of conf$/;"	b	line:58	language:coffee
+for 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            for k,v of param$/;"	b	line:426	language:coffee
+for 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            for key, val of @getConfig().tokenFormat$/;"	b	line:670	language:coffee
+for 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            for key, val of \$auth.retrieveData('auth_headers')$/;"	b	line:835	language:coffee
+for 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            for key, val of params$/;"	b	line:341	language:coffee
+for 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          for conf, i in params$/;"	b	line:55	language:coffee
+for 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^      for key, val of \$auth.getConfig().tokenFormat$/;"	b	line:818	language:coffee
+for 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^  for key, val of obj$/;"	b	line:900	language:coffee
+form	./app/assets/javascripts/services/fw/resourse-manager.coffee	/^  form: ->$/;"	f	line:3	language:coffee	object:window
+form	app/controllers/fw/traductor_controller.rb	/^  def form$/;"	f	class:Fw.TraductorController
+form_terminado	app/models/fw/traductor.rb	/^  def form_terminado$/;"	f	class:Fw.Traductor
+formatear_y_setear	app/models/tb/cbu.rb	/^	def formatear_y_setear(k,v)$/;"	f	class:Tb.Cbu
+formulario	app/models/fw/traductor.rb	/^  def formulario$/;"	f	class:Fw.Traductor
+gen_cbu	app/models/tb/cbu.rb	/^	def gen_cbu$/;"	f	class:Tb.Cbu
+general	app/models/fw/diccionario.rb	/^  def general(dicc)$/;"	f	class:Fw.Diccionario
+getConfig	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          getConfig: (name) ->$/;"	f	line:749	language:coffee	object:exports.defaultConfigName.get
+getCurrentConfigName	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          getCurrentConfigName: (name) ->$/;"	f	line:768	language:coffee	object:exports.defaultConfigName.get
+getExpiry	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          getExpiry: ->$/;"	f	line:600	language:coffee	object:exports.defaultConfigName.get
+getResultOrValue	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          getResultOrValue: (arg) ->$/;"	f	line:756	language:coffee	object:exports.defaultConfigName.get
+getSavedConfig	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          getSavedConfig: ->$/;"	f	line:779	language:coffee	object:exports.defaultConfigName.get
+get_accion	./app/assets/javascripts/services/fw/resourse-manager.coffee	/^  get_accion: ->$/;"	f	line:20	language:coffee	object:window
+get_element	./app/assets/javascripts/services/fw/resourse-manager.coffee	/^  get_element: (args) ->$/;"	f	line:12	language:coffee	object:window
+get_imp	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^    get_imp = (item, req_by) ->$/;"	f	line:87	language:coffee	object:set_organizaciones_url
+get_imp_by_id	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^    get_imp_by_id = (imp_id) ->$/;"	f	line:102	language:coffee	object:set_organizaciones_url
+get_items	app/models/ad/auxiliar.rb	/^    def get_items$/;"	f	class:Ad.Auxiliar
+get_model_id	app/models/co/cuenta.rb	/^  def self.get_model_id$/;"	F	class:Co.Cuenta
+get_model_id	app/models/op/base.rb	/^    def self.get_model_id$/;"	F	class:Op.Base
+get_venc	app/models/ad/auxiliar.rb	/^    def get_venc$/;"	f	class:Ad.Auxiliar
+gid_duplicado?	app/models/ad/secretaria.rb	/^  def gid_duplicado?(gid)$/;"	f	class:Ad.Secretaria
+globalize	app/models/concerns/scope.rb	/^  def globalize$/;"	f	class:Scope.Comun
+globalize	app/models/concerns/scope.rb	/^  def globalize$/;"	f	class:Scope.Usuario
+guardar	./app/assets/javascripts/controllers/fw/resourses/new-ctrl.coffee	/^  \$scope.guardar = ->$/;"	f	line:15	language:coffee	object:window
+guardar	./app/assets/javascripts/controllers/fw/resourses/update-ctrl.coffee	/^  \$scope.guardar = ->$/;"	f	line:14	language:coffee	object:window
+guardar	./app/assets/javascripts/controllers/mi/perfil.coffee	/^  \$scope.guardar = ->$/;"	f	line:13	language:coffee	object:window
+handleAccountUpdateResponse	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^        handleAccountUpdateResponse:   (resp) -> resp.data$/;"	f	line:37	language:coffee	object:exports.configs.default
+handleLoginResponse	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^        handleLoginResponse:           (resp) -> resp.data$/;"	f	line:36	language:coffee	object:exports.configs.default
+handlePostMessage	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          handlePostMessage: (ev) ->$/;"	f	line:142	language:coffee	object:exports.defaultConfigName.get
+handleTokenValidationResponse	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^        handleTokenValidationResponse: (resp) -> resp.data$/;"	f	line:38	language:coffee	object:exports.configs.default
+handleValidAuth	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          handleValidAuth: (user, setHeader=false) ->$/;"	f	line:639	language:coffee	object:exports.defaultConfigName.get
+header	./app/assets/javascripts/services/fw/content-provider.coffee	/^  header: () ->$/;"	f	line:3	language:coffee	object:window
+i	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^      i = \$scope.impuestos.findIndex (impuesto) ->$/;"	f	line:58	language:coffee	object:set_organizaciones_url.next_imp
+id	./app/assets/javascripts/controllers/fw/resourses/update-ctrl.coffee	/^  Resourse.get {id: \$routeParams.id}, (data) ->$/;"	f	line:11	language:coffee	object:window
+id	./app/assets/javascripts/services/fw/resourse-manager.coffee	/^        @.resource().get {id: \$routeParams.id}, (data) ->$/;"	f	line:51	language:coffee	object:set_scope
+if 	./app/assets/javascripts/controllers/fw/resourses/new-ctrl.coffee	/^      if resp.options$/;"	b	line:18	language:coffee
+if 	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^        if data.cat_fiscal == 'repo'$/;"	b	line:79	language:coffee
+if 	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^      if req_by == 'producto' && item.imp_mod == undefined$/;"	b	line:88	language:coffee
+if 	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^    if \$rootScope.rs_empresa_actual != undefined$/;"	b	line:7	language:coffee
+if 	./app/assets/javascripts/directives/fw/au-mask.coffee	/^      if faltan > 0$/;"	b	line:23	language:coffee
+if 	./app/assets/javascripts/directives/fw/au-mask.coffee	/^      if matches && value.length < 15$/;"	b	line:9	language:coffee
+if 	./app/assets/javascripts/services/fw/content-provider.coffee	/^            if kk == 'fecha'$/;"	b	line:13	language:coffee
+if 	./app/assets/javascripts/services/fw/resourse-manager.coffee	/^     if accion = \$location.path().match(/\\/([a-zA-Z]+)\$/)$/;"	b	line:21	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^                    if curHeaders[key] && updateResponse[key]$/;"	b	line:272	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^                  if @firstTimeLogin$/;"	b	line:558	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^                  if @firstTimeLogin$/;"	b	line:571	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^                  if @mustResetPassword$/;"	b	line:564	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^                  if @mustResetPassword$/;"	b	line:574	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^                  if @oauthRegistration$/;"	b	line:561	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^                  if @tokenHasExpired()$/;"	b	line:525	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^                  if Object.keys(params).length > 0$/;"	b	line:512	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^                if curHeaders$/;"	b	line:269	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^                if token != undefined$/;"	b	line:476	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^              if @userIsAuthenticated()$/;"	b	line:459	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^              if data$/;"	b	line:389	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^              if oauthRegistration$/;"	b	line:151	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^              if pairs[i] == ''$/;"	b	line:442	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if @dfd?$/;"	b	line:126	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if @dfd?$/;"	b	line:734	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if @getConfig().storage instanceof Object$/;"	b	line:689	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if @getConfig().storage instanceof Object$/;"	b	line:699	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if @getConfig().validateOnPageLoad$/;"	b	line:180	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if @getConfig(configName).proxyIf()$/;"	b	line:743	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if @getConfig(configName).storage instanceof Object$/;"	b	line:678	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if @requestCredentialsPollingTimer?$/;"	b	line:119	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if \$window.addEventListener$/;"	b	line:113	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if \$window.removeEventListener$/;"	b	line:137	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if authWindow.closed$/;"	b	line:357	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if ev.data.message == 'authFailure'$/;"	b	line:153	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if ev.data.message == 'deliverCredentials'$/;"	b	line:143	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if expiry > now$/;"	b	line:715	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if hasLocalStorage$/;"	b	line:790	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if omniauthWindowType is 'newWindow'$/;"	b	line:317	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if setHeader$/;"	b	line:654	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            if typeof(arg) == 'function'$/;"	b	line:757	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          if req.url.match(\$auth.apiUrl())$/;"	b	line:834	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          if resp.config.url.match(\$auth.apiUrl())$/;"	b	line:843	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          if resp.config.url.match(\$auth.apiUrl())$/;"	b	line:851	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^        if params instanceof Array and params.length$/;"	b	line:53	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^        if resp.headers(key)$/;"	b	line:819	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^      if tokenIsCurrent(\$auth, newHeaders)$/;"	b	line:822	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^    if version < 10$/;"	b	line:878	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^  if nav and nav.indexOf('msie') != -1$/;"	b	line:876	language:coffee
+if 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^if typeof module != 'undefined' and typeof exports != 'undefined' and module.exports == exports$/;"	b	line:1	language:coffee
+impuesto	app/models/ba/producto.rb	/^  belongs_to :impuesto, class_name: "Co::Impuesto"$/;"	F	class:Ba.Producto
+impuesto	app/models/op/item.rb	/^  belongs_to :impuesto, class_name: 'Co::Impuesto'$/;"	F	class:Op.Item
+impuesto=	app/models/ba/producto.rb	/^  belongs_to :impuesto, class_name: "Co::Impuesto"$/;"	F	class:Ba.Producto
+impuesto=	app/models/op/item.rb	/^  belongs_to :impuesto, class_name: 'Co::Impuesto'$/;"	F	class:Op.Item
+index	app/controllers/ba/organizaciones_controller.rb	/^  def index$/;"	f	class:Ba.OrganizacionesController
+index	app/controllers/co/cuentas_controller.rb	/^  def index$/;"	f	class:Co.CuentasController
+index	app/controllers/co/impuestos_controller.rb	/^  def index$/;"	f	class:Co.ImpuestosController
+index	app/controllers/fw/notas_controller.rb	/^  def index$/;"	f	class:Fw.NotasController
+index	app/controllers/in/depositos_controller.rb	/^  def index$/;"	f	class:In.DepositosController
+index	app/controllers/inicio_controller.rb	/^  def index$/;"	f	class:InicioController
+index	app/controllers/mi/archivo_controller.rb	/^  def index$/;"	f	class:Mi.ArchivoController
+index	app/controllers/mi/corcho_controller.rb	/^  def index$/;"	f	class:Mi.CorchoController
+index	app/controllers/mi/empresa_controller.rb	/^  def index$/;"	f	class:Mi.EmpresaController
+index	app/controllers/mi/escritorio_controller.rb	/^  def index$/;"	f	class:Mi.EscritorioController
+index	app/controllers/mi/perfil_controller.rb	/^  def index$/;"	f	class:Mi.PerfilController
+index	app/controllers/mis/cuentas/bancos_controller.rb	/^  def index$/;"	f	class:Mis.Cuentas.BancosController
+index	app/controllers/mis/cuentas/cajas_controller.rb	/^  def index$/;"	f	class:Mis.Cuentas.CajasController
+index	app/controllers/mis/cuentas/egresos_controller.rb	/^  def index$/;"	f	class:Mis.Cuentas.EgresosController
+index	app/controllers/mis/cuentas/ingresos_controller.rb	/^  def index$/;"	f	class:Mis.Cuentas.IngresosController
+index	app/controllers/mis/cuentas/tarjetas_controller.rb	/^  def index$/;"	f	class:Mis.Cuentas.TarjetasController
+index	app/controllers/mis/operaciones/compras_controller.rb	/^  def index$/;"	f	class:Mis.Operaciones.ComprasController
+index	app/controllers/mis/operaciones/ventas_controller.rb	/^  def index$/;"	f	class:Mis.Operaciones.VentasController
+index	app/controllers/mis/organizaciones/clientes_controller.rb	/^	def index$/;"	f	class:Mis.Organizaciones.ClientesController
+index	app/controllers/mis/organizaciones/proveedores_controller.rb	/^	def index$/;"	f	class:Mis.Organizaciones.ProveedoresController
+index	app/controllers/op/egresos_controller.rb	/^  def index$/;"	f	class:Op.EgresosController
+index	app/controllers/pr/bienes_controller.rb	/^  def index$/;"	f	class:Pr.BienesController
+index	app/controllers/pr/servicios_controller.rb	/^  def index$/;"	f	class:Pr.ServiciosController
+index	app/controllers/pr/unidades_controller.rb	/^  def index$/;"	f	class:Pr.UnidadesController
+index	app/controllers/sesion_controller.rb	/^  def index$/;"	f	class:SesionController
+index_url	./app/assets/javascripts/controllers/fw/resourses/update-ctrl.coffee	/^  index_url = ResourseManager.underscored_klass()$/;"	o	line:5	language:coffee	object:window
+index_url	./app/assets/javascripts/controllers/mi/perfil.coffee	/^  index_url = '/'$/;"	o	line:6	language:coffee	object:window
+iniciar_sesion	./app/assets/javascripts/controllers/fw/sesiones/main-ctrl.coffee	/^  \$scope.iniciar_sesion = ->$/;"	f	line:4	language:coffee	object:window
+initDfd	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          initDfd: ->$/;"	f	line:726	language:coffee	object:exports.defaultConfigName.get
+initialize	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          initialize: ->$/;"	f	line:104	language:coffee	object:exports.defaultConfigName.get
+initialize	app/models/ad/auxiliar.rb	/^  def initialize args = {}$/;"	f	class:Ad.Auxiliar
+initialize	app/models/ad/secretaria.rb	/^  def initialize args = {}$/;"	f	class:Ad.Secretaria
+initialize	app/models/en/recepcion.rb	/^  def initialize usuario$/;"	f	class:En.Recepcion
+initialize	app/models/fw/diccionario.rb	/^  def initialize(underscored_klass)$/;"	f	class:Fw.Diccionario
+initialize	app/models/fw/traductor.rb	/^  def initialize(underscored_klass, options = {})$/;"	f	class:Fw.Traductor
+initialize	app/models/mi.rb	/^  def initialize(usuario)$/;"	f	class:Mi
+initialize	app/models/tb/cbu.rb	/^	def initialize(datos = {})$/;"	f	class:Tb.Cbu
+initializeListeners	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          initializeListeners: ->$/;"	f	line:109	language:coffee	object:exports.defaultConfigName.get
+integridad	app/models/co/item.rb	/^  def integridad$/;"	f	class:Co.Item
+invalidateTokens	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          invalidateTokens: ->$/;"	f	line:609	language:coffee	object:exports.defaultConfigName.get
+invitaciones	app/models/mi/entorno.rb	/^  def invitaciones$/;"	f	class:Mi.Entorno
+isEmpty	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^window.isEmpty = (obj) ->$/;"	f	line:888	language:coffee	object:window
+isIE	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^window.isIE = ->$/;"	f	line:884	language:coffee	object:window
+isOldIE	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^window.isOldIE = ->$/;"	f	line:873	language:coffee	object:window
+item_ids	app/models/co/asiento.rb	/^  has_many :items, dependent: :destroy$/;"	F	class:Co.Asiento
+item_ids	app/models/op/base.rb	/^  has_many :items, dependent: :destroy$/;"	F	class:Op.Base
+item_ids	app/serializers/mis/operaciones/compra_serializer.rb	/^  has_many :items$/;"	F	class:Mis.Operaciones.CompraSerializer
+item_ids	app/serializers/mis/operaciones/venta_serializer.rb	/^  has_many :items$/;"	F	class:Mis.Operaciones.VentaSerializer
+item_ids=	app/models/co/asiento.rb	/^  has_many :items, dependent: :destroy$/;"	F	class:Co.Asiento
+item_ids=	app/models/op/base.rb	/^  has_many :items, dependent: :destroy$/;"	F	class:Op.Base
+item_ids=	app/serializers/mis/operaciones/compra_serializer.rb	/^  has_many :items$/;"	F	class:Mis.Operaciones.CompraSerializer
+item_ids=	app/serializers/mis/operaciones/venta_serializer.rb	/^  has_many :items$/;"	F	class:Mis.Operaciones.VentaSerializer
+item_params	app/controllers/concerns/globales.rb	/^  def item_params$/;"	f	class:Globales
+item_params	app/controllers/mi/perfil_controller.rb	/^  def item_params$/;"	f	class:Mi.PerfilController
+item_params	app/controllers/mis/cuentas/bancos_controller.rb	/^  def item_params$/;"	f	class:Mis.Cuentas.BancosController
+item_params	app/controllers/mis/cuentas/cajas_controller.rb	/^  def item_params$/;"	f	class:Mis.Cuentas.CajasController
+item_params	app/controllers/mis/cuentas/tarjetas_controller.rb	/^  def item_params$/;"	f	class:Mis.Cuentas.TarjetasController
+item_params	app/controllers/op/egresos_controller.rb	/^  def item_params$/;"	f	class:Op.EgresosController
+item_params	app/controllers/pr/bienes_controller.rb	/^  def item_params$/;"	f	class:Pr.BienesController
+item_params	app/controllers/pr/unidades_controller.rb	/^  def item_params$/;"	f	class:Pr.UnidadesController
+items	app/models/co/asiento.rb	/^  has_many :items, dependent: :destroy$/;"	F	class:Co.Asiento
+items	app/models/op/base.rb	/^  has_many :items, dependent: :destroy$/;"	F	class:Op.Base
+items	app/serializers/mis/operaciones/compra_serializer.rb	/^  has_many :items$/;"	F	class:Mis.Operaciones.CompraSerializer
+items	app/serializers/mis/operaciones/venta_serializer.rb	/^  has_many :items$/;"	F	class:Mis.Operaciones.VentaSerializer
+items=	app/models/co/asiento.rb	/^  has_many :items, dependent: :destroy$/;"	F	class:Co.Asiento
+items=	app/models/op/base.rb	/^  has_many :items, dependent: :destroy$/;"	F	class:Op.Base
+items=	app/serializers/mis/operaciones/compra_serializer.rb	/^  has_many :items$/;"	F	class:Mis.Operaciones.CompraSerializer
+items=	app/serializers/mis/operaciones/venta_serializer.rb	/^  has_many :items$/;"	F	class:Mis.Operaciones.VentaSerializer
+klass	app/models/fw/traductor.rb	/^  attr_reader :klass, :diccionario$/;"	f	class:Fw.Traductor
+last_email	spec/support/mailer_helpers.rb	/^  def last_email$/;"	f	class:MailerHelpers
+link	./app/assets/javascripts/directives/fw/au-mask.coffee	/^  link: (scope,el,attrs,model) ->$/;"	f	line:5	language:coffee	object:window
+listar_empresas	./app/assets/javascripts/services/fw/session-manager.coffee	/^  listar_empresas: ->$/;"	f	line:12	language:coffee	object:window
+load_collection	app/controllers/concerns/globales.rb	/^  def load_collection$/;"	f	class:Globales
+load_item	app/controllers/concerns/globales.rb	/^  def load_item$/;"	f	class:Globales.Empresa
+load_item	app/controllers/concerns/globales.rb	/^  def load_item$/;"	f	class:Globales.Usuario
+load_item	app/controllers/mi/empresa_controller.rb	/^  def load_item$/;"	f	class:Mi.EmpresaController
+load_item	app/controllers/mi/perfil_controller.rb	/^  def load_item$/;"	f	class:Mi.PerfilController
+load_mi	app/models/mi/base.rb	/^  def load_mi(dependencias)$/;"	f	class:Mi.Base
+log	app/models/mi/empresa.rb	/^  def log(usuario)$/;"	f	class:Mi.Empresa
+login_user	spec/support/login_helpers.rb	/^  def login_user$/;"	f	class:LoginHelpers
+manual_resource	./app/assets/javascripts/services/fw/resourse-manager.coffee	/^  manual_resource: (location) ->$/;"	f	line:18	language:coffee	object:window
+mis_tarjetas	app/models/mi/escritorio.rb	/^  def mis_tarjetas$/;"	f	class:Mi.Escritorio
+moneda	app/models/co/asiento.rb	/^  belongs_to :moneda$/;"	F	class:Co.Asiento
+moneda	app/models/co/cotizacion.rb	/^  belongs_to :moneda$/;"	F	class:Co.Cotizacion
+moneda=	app/models/co/asiento.rb	/^  belongs_to :moneda$/;"	F	class:Co.Asiento
+moneda=	app/models/co/cotizacion.rb	/^  belongs_to :moneda$/;"	F	class:Co.Cotizacion
+mostrar_errores	./app/assets/javascripts/services/fw/comunicacion.coffee	/^  mostrar_errores: (resp) ->$/;"	f	line:3	language:coffee	object:window
+new	app/controllers/ba/organizaciones_controller.rb	/^  def new$/;"	f	class:Ba.OrganizacionesController
+new	app/controllers/co/cuentas_controller.rb	/^  def new$/;"	f	class:Co.CuentasController
+new	app/controllers/co/impuestos_controller.rb	/^  def new$/;"	f	class:Co.ImpuestosController
+new	app/controllers/fw/notas_controller.rb	/^  def new$/;"	f	class:Fw.NotasController
+new	app/controllers/in/depositos_controller.rb	/^  def new$/;"	f	class:In.DepositosController
+new	app/controllers/mi/empresa_controller.rb	/^  def new$/;"	f	class:Mi.EmpresaController
+new	app/controllers/mis/cuentas/bancos_controller.rb	/^  def new$/;"	f	class:Mis.Cuentas.BancosController
+new	app/controllers/mis/cuentas/cajas_controller.rb	/^  def new$/;"	f	class:Mis.Cuentas.CajasController
+new	app/controllers/mis/cuentas/egresos_controller.rb	/^  def new$/;"	f	class:Mis.Cuentas.EgresosController
+new	app/controllers/mis/cuentas/ingresos_controller.rb	/^  def new$/;"	f	class:Mis.Cuentas.IngresosController
+new	app/controllers/mis/cuentas/tarjetas_controller.rb	/^  def new$/;"	f	class:Mis.Cuentas.TarjetasController
+new	app/controllers/mis/operaciones/compras_controller.rb	/^  def new$/;"	f	class:Mis.Operaciones.ComprasController
+new	app/controllers/mis/operaciones/ventas_controller.rb	/^  def new$/;"	f	class:Mis.Operaciones.VentasController
+new	app/controllers/mis/organizaciones/clientes_controller.rb	/^	def new$/;"	f	class:Mis.Organizaciones.ClientesController
+new	app/controllers/mis/organizaciones/proveedores_controller.rb	/^	def new$/;"	f	class:Mis.Organizaciones.ProveedoresController
+new	app/controllers/op/egresos_controller.rb	/^  def new$/;"	f	class:Op.EgresosController
+new	app/controllers/pr/bienes_controller.rb	/^  def new$/;"	f	class:Pr.BienesController
+new	app/controllers/pr/servicios_controller.rb	/^  def new$/;"	f	class:Pr.ServiciosController
+new	app/controllers/pr/unidades_controller.rb	/^  def new$/;"	f	class:Pr.UnidadesController
+new_item	app/controllers/concerns/globales.rb	/^  def new_item$/;"	f	class:Globales
+next_imp	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^    \$scope.next_imp = (item) ->$/;"	f	line:57	language:coffee	object:set_organizaciones_url
+nota_ids	app/models/ba/usuario.rb	/^  has_many :notas, class_name: 'Fw::Nota'$/;"	F	class:Ba.Usuario
+nota_ids=	app/models/ba/usuario.rb	/^  has_many :notas, class_name: 'Fw::Nota'$/;"	F	class:Ba.Usuario
+notas	app/models/ba/usuario.rb	/^  has_many :notas, class_name: 'Fw::Nota'$/;"	F	class:Ba.Usuario
+notas=	app/models/ba/usuario.rb	/^  has_many :notas, class_name: 'Fw::Nota'$/;"	F	class:Ba.Usuario
+nuevo_cliente	app/models/mi/empresa.rb	/^  def nuevo_cliente$/;"	f	class:Mi.Empresa
+nuevo_proveedor	app/models/mi/empresa.rb	/^  def nuevo_proveedor$/;"	f	class:Mi.Empresa
+obj	./app/assets/javascripts/controllers/fw/resourses/new-ctrl.coffee	/^    \$scope.obj = data$/;"	o	line:9	language:coffee
+obj	./app/assets/javascripts/controllers/fw/resourses/new-ctrl.coffee	/^  \$scope.obj = new Resourse()$/;"	o	line:7	language:coffee	object:window
+openAuthWindow	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          openAuthWindow: (provider, opts) ->$/;"	f	line:312	language:coffee	object:exports.defaultConfigName.get
+org_nombre	app/models/op/base.rb	/^  define_method(:org_nombre) { organizacion.nombre if organizacion_id }$/;"	f	class:Op.Base
+organizacion	app/models/ba/relacion.rb	/^  belongs_to :organizacion, foreign_key: 'organizacion_id', class_name: 'Ba::Organizacion'$/;"	F	class:Ba.Relacion
+organizacion	app/models/mis/operaciones/compra.rb	/^  belongs_to :organizacion, class_name: 'Ba::Organizacion'$/;"	F	class:Mis.Operaciones.Compra
+organizacion	app/models/mis/operaciones/venta.rb	/^  belongs_to :organizacion, class_name: 'Ba::Organizacion'$/;"	F	class:Mis.Operaciones.Venta
+organizacion=	app/models/ba/relacion.rb	/^  belongs_to :organizacion, foreign_key: 'organizacion_id', class_name: 'Ba::Organizacion'$/;"	F	class:Ba.Relacion
+organizacion=	app/models/mis/operaciones/compra.rb	/^  belongs_to :organizacion, class_name: 'Ba::Organizacion'$/;"	F	class:Mis.Operaciones.Compra
+organizacion=	app/models/mis/operaciones/venta.rb	/^  belongs_to :organizacion, class_name: 'Ba::Organizacion'$/;"	F	class:Mis.Operaciones.Venta
+organizacione_ids	app/models/mi/empresa.rb	/^  has_many :organizaciones, through: :relaciones$/;"	F	class:Mi.Empresa
+organizacione_ids=	app/models/mi/empresa.rb	/^  has_many :organizaciones, through: :relaciones$/;"	F	class:Mi.Empresa
+organizaciones	app/models/mi/empresa.rb	/^  has_many :organizaciones, through: :relaciones$/;"	F	class:Mi.Empresa
+organizaciones=	app/models/mi/empresa.rb	/^  has_many :organizaciones, through: :relaciones$/;"	F	class:Mi.Empresa
+p	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^        p = \$scope.productos.filter (producto) ->$/;"	f	line:89	language:coffee	object:set_organizaciones_url.get_imp
+panel	app/models/mi/entorno.rb	/^  def panel$/;"	f	class:Mi.Entorno
+parseExpiry	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^        parseExpiry: (headers) ->$/;"	f	line:32	language:coffee	object:exports.configs.default
+parseLocation	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          parseLocation: (location) ->$/;"	f	line:435	language:coffee	object:exports.defaultConfigName.get
+parse_json	spec/support/api_helpers.rb	/^  def parse_json(resp)$/;"	f	class:ApiHelpers
+passwordResetSuccessUrl	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^        passwordResetSuccessUrl: -> window.location.href$/;"	f	line:17	language:coffee	object:exports.configs.default
+persistData	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          persistData: (key, val, configName) ->$/;"	f	line:677	language:coffee	object:exports.defaultConfigName.get
+pj	spec/support/api_helpers.rb	/^  def pj$/;"	f	class:ApiHelpers
+postergar	./app/assets/javascripts/controllers/mi/archivo.coffee	/^  \$scope.postergar = (item_id, index) ->$/;"	f	line:13	language:coffee	object:window
+postergar	./app/assets/javascripts/controllers/mi/escritorio.coffee	/^  \$scope.postergar = (item_id, index) ->$/;"	f	line:12	language:coffee	object:window
+postergar	./app/assets/javascripts/services/fw/tarjetas-manager.coffee	/^  postergar: (item_id) ->$/;"	f	line:5	language:coffee	object:window
+postergar	app/controllers/mis/tarjetas_controller.rb	/^  def postergar$/;"	f	class:Mis.TarjetasController
+pre_borrar	./app/assets/javascripts/controllers/fw/resourses/index-ctrl.coffee	/^  \$scope.pre_borrar = (objeto_a_borrar) ->$/;"	f	line:11	language:coffee	object:window
+prepara_escritorio	app/models/en/recepcion.rb	/^  def prepara_escritorio$/;"	f	class:En.Recepcion
+primera_vez?	app/models/en/recepcion.rb	/^  def primera_vez?$/;"	f	class:En.Recepcion
+principal	app/models/mi/escritorio.rb	/^  def principal$/;"	f	class:Mi.Escritorio
+principal	config/initializers/open_classes.rb	/^	def principal$/;"	f	class:Array
+principal	config/initializers/open_classes.rb	/^def principal$/;"	f	class:Hash
+producto	app/models/op/item.rb	/^  belongs_to :producto, class_name: 'Ba::Producto'$/;"	F	class:Op.Item
+producto=	app/models/op/item.rb	/^  belongs_to :producto, class_name: 'Ba::Producto'$/;"	F	class:Op.Item
+proveedor	app/models/ba/relacion.rb	/^  belongs_to :proveedor, foreign_key: 'organizacion_id', class_name: 'Ba::Organizacion'$/;"	F	class:Ba.Relacion
+proveedor=	app/models/ba/relacion.rb	/^  belongs_to :proveedor, foreign_key: 'organizacion_id', class_name: 'Ba::Organizacion'$/;"	F	class:Ba.Relacion
+proveedore_ids	app/models/mi/empresa.rb	/^  has_many :proveedores, through: :rel_pro$/;"	F	class:Mi.Empresa
+proveedore_ids=	app/models/mi/empresa.rb	/^  has_many :proveedores, through: :rel_pro$/;"	F	class:Mi.Empresa
+proveedores	app/models/mi/empresa.rb	/^  has_many :proveedores, through: :rel_pro$/;"	F	class:Mi.Empresa
+proveedores=	app/models/mi/empresa.rb	/^  has_many :proveedores, through: :rel_pro$/;"	F	class:Mi.Empresa
+proxyIf	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^        proxyIf:                 -> false$/;"	f	line:19	language:coffee	object:exports.configs.default
+pxq	./app/assets/javascripts/services/fw/calculadora.coffee	/^  pxq: (item) ->$/;"	f	line:3	language:coffee	object:window
+rejectDfd	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          rejectDfd: (reason) ->$/;"	f	line:732	language:coffee	object:exports.defaultConfigName.get
+rel_cli	app/models/mi/empresa.rb	/^  has_many :rel_cli,  -> { where(tipo: [0, 3]) }, class_name: 'Ba::Relacion'$/;"	F	class:Mi.Empresa
+rel_cli=	app/models/mi/empresa.rb	/^  has_many :rel_cli,  -> { where(tipo: [0, 3]) }, class_name: 'Ba::Relacion'$/;"	F	class:Mi.Empresa
+rel_pro	app/models/mi/empresa.rb	/^  has_many :rel_pro,  -> { where(tipo: [1, 3]) }, class_name: 'Ba::Relacion'$/;"	F	class:Mi.Empresa
+rel_pro=	app/models/mi/empresa.rb	/^  has_many :rel_pro,  -> { where(tipo: [1, 3]) }, class_name: 'Ba::Relacion'$/;"	F	class:Mi.Empresa
+relacione_ids	app/models/mi/empresa.rb	/^  has_many :relaciones, class_name: 'Ba::Relacion'$/;"	F	class:Mi.Empresa
+relacione_ids=	app/models/mi/empresa.rb	/^  has_many :relaciones, class_name: 'Ba::Relacion'$/;"	F	class:Mi.Empresa
+relaciones	app/models/mi/empresa.rb	/^  has_many :relaciones, class_name: 'Ba::Relacion'$/;"	F	class:Mi.Empresa
+relaciones=	app/models/mi/empresa.rb	/^  has_many :relaciones, class_name: 'Ba::Relacion'$/;"	F	class:Mi.Empresa
+request	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^      request: (req) ->$/;"	f	line:832	language:coffee	object:exports.updateHeadersFromResponse
+requestCredentialsViaExecuteScript	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          requestCredentialsViaExecuteScript: (authWindow) ->$/;"	f	line:371	language:coffee	object:exports.defaultConfigName.get
+requestCredentialsViaPostMessage	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          requestCredentialsViaPostMessage: (authWindow) ->$/;"	f	line:354	language:coffee	object:exports.defaultConfigName.get
+reset_password	./app/assets/javascripts/controllers/fw/sesiones/main-ctrl.coffee	/^  \$scope.reset_password = ->$/;"	f	line:25	language:coffee	object:window
+resolveDfd	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          resolveDfd: ->$/;"	f	line:415	language:coffee	object:exports.defaultConfigName.get
+resource	./app/assets/javascripts/services/fw/resourse-manager.coffee	/^  resource: ->$/;"	f	line:7	language:coffee	object:window
+response	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^      response: (resp) ->$/;"	f	line:841	language:coffee	object:exports.updateHeadersFromResponse
+responseError	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^      responseError: (resp) ->$/;"	f	line:849	language:coffee	object:exports.updateHeadersFromResponse
+retrieveData	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          retrieveData: (key) ->$/;"	f	line:688	language:coffee	object:exports.defaultConfigName.get
+revisar_tarjeta_asociada	app/models/fw/nota.rb	/^  def revisar_tarjeta_asociada$/;"	f	class:Fw.Nota
+rol	app/models/ba/acceso.rb	/^  belongs_to :rol$/;"	F	class:Ba.Acceso
+rol=	app/models/ba/acceso.rb	/^  belongs_to :rol$/;"	F	class:Ba.Acceso
+rs_listo	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^  rs_listo = ->$/;"	f	line:5	language:coffee	object:window
+sc	app/controllers/concerns/globales.rb	/^  def sc$/;"	f	class:Globales
+scoped	app/controllers/ba/organizaciones_controller.rb	/^    def scoped$/;"	f	class:Ba.OrganizacionesController
+scoped	app/controllers/concerns/globales.rb	/^  def scoped$/;"	f	class:Globales.Empresa
+scoped	app/controllers/concerns/globales.rb	/^  def scoped$/;"	f	class:Globales.Usuario
+scoped	app/controllers/mi/empresa_controller.rb	/^  def scoped$/;"	f	class:Mi.EmpresaController
+scoped	app/models/co/cuenta.rb	/^  def self.scoped(empresa_id)$/;"	F	class:Co.Cuenta
+scoped	app/models/fw/nota.rb	/^  scope :scoped, -> (usuario) {where(usuario_id: usuario)}$/;"	F	class:Fw.Nota
+scoped	app/models/fw/tarjeta.rb	/^  scope :scoped, -> {order(:id)}$/;"	F	class:Fw.Tarjeta
+scoped	app/models/mi/empresa.rb	/^  scope :scoped, -> (uid) { where('id in (?)', Ba::Acceso.where(usuario_id: uid).collect(&:empresa_id) )}$/;"	F	class:Mi.Empresa
+scoped	app/models/op/base.rb	/^  def self.scoped(empresa_id)$/;"	F	class:Op.Base
+scoped	app/models/pr/bien.rb	/^  scope :scoped, -> (empresa_id) { where('id in (?)', Fw::Scope.empresa(self.to_s, empresa_id).collect(&:objeto_id) )}$/;"	F	class:Pr.Bien
+scoped	app/models/pr/servicio.rb	/^  scope :scoped, -> (empresa_id) { where('id in (?)', Fw::Scope.empresa(self.to_s, empresa_id).collect(&:objeto_id) )}$/;"	F	class:Pr.Servicio
+setAuthHeaders	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          setAuthHeaders: (h) ->$/;"	f	line:708	language:coffee	object:exports.defaultConfigName.get
+setConfigName	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          setConfigName: (configName) ->$/;"	f	line:306	language:coffee	object:exports.defaultConfigName.get
+set_coef	app/models/co/impuesto.rb	/^    def set_coef$/;"	f	class:Co.Impuesto
+set_collections	./app/assets/javascripts/services/fw/resourse-manager.coffee	/^  set_collections: (scope, args) ->$/;"	f	line:25	language:coffee	object:window
+set_cuotas	app/models/ad/auxiliar.rb	/^    def set_cuotas cantidad$/;"	f	class:Ad.Auxiliar
+set_impuestos_in_detalle	app/models/ad/auxiliar.rb	/^    def set_impuestos_in_detalle item$/;"	f	class:Ad.Auxiliar
+set_items_destino	app/models/ad/auxiliar.rb	/^    def set_items_destino items_ary$/;"	f	class:Ad.Auxiliar
+set_nested	app/controllers/concerns/globales.rb	/^  def set_nested$/;"	f	class:Globales
+set_organizaciones_url	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^  set_organizaciones_url = ->$/;"	f	line:16	language:coffee	object:window
+set_scope	./app/assets/javascripts/services/fw/resourse-manager.coffee	/^  set_scope: (scope) ->$/;"	f	line:37	language:coffee	object:window
+set_session_data	app/controllers/application_controller.rb	/^  def set_session_data$/;"	f	class:ApplicationController
+set_tarjetable	app/models/ad/secretaria.rb	/^  def set_tarjetable obj$/;"	f	class:Ad.Secretaria
+set_tipo	app/models/co/cuenta.rb	/^  def set_tipo$/;"	f	class:Co.Cuenta
+set_tipo	app/models/op/base.rb	/^    def set_tipo$/;"	f	class:Op.Base
+set_unidad	app/models/pr/servicio.rb	/^    def set_unidad$/;"	f	class:Pr.Servicio
+set_venc_dias	app/models/ad/auxiliar.rb	/^    def set_venc_dias scan_rslt$/;"	f	class:Ad.Auxiliar
+set_venc_irreg	app/models/ad/auxiliar.rb	/^    def set_venc_irreg scan_rslt$/;"	f	class:Ad.Auxiliar
+show	app/controllers/ba/organizaciones_controller.rb	/^  def show$/;"	f	class:Ba.OrganizacionesController
+show	app/controllers/co/cuentas_controller.rb	/^  def show$/;"	f	class:Co.CuentasController
+show	app/controllers/co/impuestos_controller.rb	/^  def show$/;"	f	class:Co.ImpuestosController
+show	app/controllers/fw/notas_controller.rb	/^  def show$/;"	f	class:Fw.NotasController
+show	app/controllers/in/depositos_controller.rb	/^  def show$/;"	f	class:In.DepositosController
+show	app/controllers/mi/empresa_controller.rb	/^  def show$/;"	f	class:Mi.EmpresaController
+show	app/controllers/mis/cuentas/bancos_controller.rb	/^  def show$/;"	f	class:Mis.Cuentas.BancosController
+show	app/controllers/mis/cuentas/cajas_controller.rb	/^  def show$/;"	f	class:Mis.Cuentas.CajasController
+show	app/controllers/mis/cuentas/egresos_controller.rb	/^  def show$/;"	f	class:Mis.Cuentas.EgresosController
+show	app/controllers/mis/cuentas/ingresos_controller.rb	/^  def show$/;"	f	class:Mis.Cuentas.IngresosController
+show	app/controllers/mis/cuentas/tarjetas_controller.rb	/^  def show$/;"	f	class:Mis.Cuentas.TarjetasController
+show	app/controllers/mis/operaciones/compras_controller.rb	/^  def show$/;"	f	class:Mis.Operaciones.ComprasController
+show	app/controllers/mis/operaciones/ventas_controller.rb	/^  def show$/;"	f	class:Mis.Operaciones.VentasController
+show	app/controllers/mis/organizaciones/clientes_controller.rb	/^	def show$/;"	f	class:Mis.Organizaciones.ClientesController
+show	app/controllers/mis/organizaciones/proveedores_controller.rb	/^	def show$/;"	f	class:Mis.Organizaciones.ProveedoresController
+show	app/controllers/op/egresos_controller.rb	/^  def show$/;"	f	class:Op.EgresosController
+show	app/controllers/pr/bienes_controller.rb	/^  def show$/;"	f	class:Pr.BienesController
+show	app/controllers/pr/servicios_controller.rb	/^  def show$/;"	f	class:Pr.ServiciosController
+show	app/controllers/pr/unidades_controller.rb	/^  def show$/;"	f	class:Pr.UnidadesController
+sin_empresa?	app/models/mi/entorno.rb	/^  def sin_empresa?$/;"	f	class:Mi.Entorno
+skip_auth?	app/controllers/application_controller.rb	/^  def skip_auth?$/;"	f	class:ApplicationController
+solicitar_invitacion	app/models/mi/entorno.rb	/^  def solicitar_invitacion$/;"	f	class:Mi.Entorno
+sucursal	app/models/tb/cbu.rb	/^	attr_accessor :cbu, :cuenta, :banco, :sucursal$/;"	f	class:Tb.Cbu
+sucursal=	app/models/tb/cbu.rb	/^	attr_accessor :cbu, :cuenta, :banco, :sucursal$/;"	f	class:Tb.Cbu
+switch 	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^        switch req_by$/;"	b	line:39	language:coffee
+switch 	./app/assets/javascripts/controllers/mis/operaciones/operaciones-ctrl.coffee	/^    switch data.cat_fiscal$/;"	b	line:30	language:coffee
+switch 	./app/assets/javascripts/services/fw/content-provider.coffee	/^            switch vv['attrs']$/;"	b	line:20	language:coffee
+switch 	./app/assets/javascripts/services/fw/content-provider.coffee	/^      switch k$/;"	b	line:9	language:coffee
+switch 	./app/assets/javascripts/services/fw/resourse-manager.coffee	/^    switch @.get_accion()$/;"	b	line:41	language:coffee
+switch 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^              switch @getConfig().storage$/;"	b	line:692	language:coffee
+switch 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^              switch @getConfig(configName).storage$/;"	b	line:681	language:coffee
+switch 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            switch @getConfig().storage$/;"	b	line:701	language:coffee
+table_name_prefix	app/models/ba.rb	/^  def self.table_name_prefix$/;"	F	class:Ba
+table_name_prefix	app/models/co.rb	/^  def self.table_name_prefix$/;"	F	class:Co
+table_name_prefix	app/models/fw.rb	/^  def self.table_name_prefix$/;"	F	class:Fw
+table_name_prefix	app/models/in.rb	/^  def self.table_name_prefix$/;"	F	class:In
+table_name_prefix	app/models/op.rb	/^  def self.table_name_prefix$/;"	F	class:Op
+table_name_prefix	app/models/pr.rb	/^  def self.table_name_prefix$/;"	F	class:Pr
+tag	app/models/concerns/standard.rb	/^  def tag(value, column = 'general')$/;"	f	class:Standard.Taggeable
+tagged	app/models/concerns/standard.rb	/^    def tagged(value, column = 'general')$/;"	f	class:Standard.Taggeable.ClassMethods
+tarjetiza_notas_recepcion	app/models/en/recepcion.rb	/^  def tarjetiza_notas_recepcion$/;"	f	class:En.Recepcion
+tarjetizar	./app/assets/javascripts/controllers/fw/resourses/index-ctrl.coffee	/^  \$scope.tarjetizar = (item_id) ->$/;"	f	line:19	language:coffee	object:window
+tarjetizar	app/models/concerns/standard.rb	/^  def tarjetizar args$/;"	f	class:Standard.Tarjeteable
+tiene_tarjetas_de_recepcion?	app/models/en/recepcion.rb	/^  def tiene_tarjetas_de_recepcion?$/;"	f	class:En.Recepcion
+tipificar	config/initializers/open_classes.rb	/^	def tipificar$/;"	f	class:Hash
+to_desk	app/models/ad/secretaria.rb	/^  def to_desk args$/;"	f	class:Ad.Secretaria
+tokenHasExpired	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          tokenHasExpired: ->$/;"	f	line:592	language:coffee	object:exports.defaultConfigName.get
+tokenIsCurrent	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^    tokenIsCurrent = (\$auth, headers) ->$/;"	f	line:808	language:coffee	object:exports
+traductor_params	app/controllers/fw/traductor_controller.rb	/^  def traductor_params$/;"	f	class:Fw.TraductorController
+ultima_empresa	app/models/ba/usuario.rb	/^  def ultima_empresa$/;"	f	class:Ba.Usuario
+underscored_klass	./app/assets/javascripts/services/fw/resourse-manager.coffee	/^  underscored_klass: (args)->$/;"	f	line:9	language:coffee	object:window
+underscored_klass	app/models/fw/diccionario.rb	/^  attr_reader :underscored_klass$/;"	f	class:Fw.Diccionario
+unless 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^                unless isEmpty(@retrieveData('auth_headers'))$/;"	b	line:523	language:coffee
+unless 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            unless @dfd?$/;"	b	line:298	language:coffee
+unless 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            unless @dfd?$/;"	b	line:454	language:coffee
+unless 	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^            unless @tokenHasExpired()$/;"	b	line:551	language:coffee
+update	app/controllers/ba/organizaciones_controller.rb	/^  def update$/;"	f	class:Ba.OrganizacionesController
+update	app/controllers/co/cuentas_controller.rb	/^  def update$/;"	f	class:Co.CuentasController
+update	app/controllers/co/impuestos_controller.rb	/^  def update$/;"	f	class:Co.ImpuestosController
+update	app/controllers/fw/notas_controller.rb	/^  def update$/;"	f	class:Fw.NotasController
+update	app/controllers/in/depositos_controller.rb	/^  def update$/;"	f	class:In.DepositosController
+update	app/controllers/mi/empresa_controller.rb	/^  def update$/;"	f	class:Mi.EmpresaController
+update	app/controllers/mi/perfil_controller.rb	/^  def update$/;"	f	class:Mi.PerfilController
+update	app/controllers/mis/cuentas/bancos_controller.rb	/^  def update$/;"	f	class:Mis.Cuentas.BancosController
+update	app/controllers/mis/cuentas/cajas_controller.rb	/^  def update$/;"	f	class:Mis.Cuentas.CajasController
+update	app/controllers/mis/cuentas/egresos_controller.rb	/^  def update$/;"	f	class:Mis.Cuentas.EgresosController
+update	app/controllers/mis/cuentas/ingresos_controller.rb	/^  def update$/;"	f	class:Mis.Cuentas.IngresosController
+update	app/controllers/mis/cuentas/tarjetas_controller.rb	/^  def update$/;"	f	class:Mis.Cuentas.TarjetasController
+update	app/controllers/mis/operaciones/compras_controller.rb	/^  def update$/;"	f	class:Mis.Operaciones.ComprasController
+update	app/controllers/mis/operaciones/ventas_controller.rb	/^  def update$/;"	f	class:Mis.Operaciones.VentasController
+update	app/controllers/mis/organizaciones/clientes_controller.rb	/^	def update$/;"	f	class:Mis.Organizaciones.ClientesController
+update	app/controllers/mis/organizaciones/proveedores_controller.rb	/^	def update$/;"	f	class:Mis.Organizaciones.ProveedoresController
+update	app/controllers/op/egresos_controller.rb	/^  def update$/;"	f	class:Op.EgresosController
+update	app/controllers/pr/bienes_controller.rb	/^  def update$/;"	f	class:Pr.BienesController
+update	app/controllers/pr/servicios_controller.rb	/^  def update$/;"	f	class:Pr.ServiciosController
+update	app/controllers/pr/unidades_controller.rb	/^  def update$/;"	f	class:Pr.UnidadesController
+update	app/models/ad/secretaria.rb	/^  def update$/;"	f	class:Ad.Secretaria
+updateHeadersFromResponse	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^    updateHeadersFromResponse = (\$auth, resp) ->$/;"	f	line:816	language:coffee	object:exports
+userIsAuthenticated	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          userIsAuthenticated: ->$/;"	f	line:223	language:coffee	object:exports.defaultConfigName.get
+usuario	app/models/ba/acceso.rb	/^  belongs_to :usuario$/;"	F	class:Ba.Acceso
+usuario=	app/models/ba/acceso.rb	/^  belongs_to :usuario$/;"	F	class:Ba.Acceso
+usuario_ids	app/models/mi/empresa.rb	/^  has_many :usuarios, through: :accesos$/;"	F	class:Mi.Empresa
+usuario_ids=	app/models/mi/empresa.rb	/^  has_many :usuarios, through: :accesos$/;"	F	class:Mi.Empresa
+usuarios	app/models/mi/empresa.rb	/^  has_many :usuarios, through: :accesos$/;"	F	class:Mi.Empresa
+usuarios=	app/models/mi/empresa.rb	/^  has_many :usuarios, through: :accesos$/;"	F	class:Mi.Empresa
+valid?	app/models/tb/cbu.rb	/^	def valid?$/;"	f	class:Tb.Cbu
+validateToken	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          validateToken: (opts={}) ->$/;"	f	line:550	language:coffee	object:exports.defaultConfigName.get
+validateUser	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          validateUser: (opts={}) ->$/;"	f	line:451	language:coffee	object:exports.defaultConfigName.get
+visitUrl	./vendor/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee	/^          visitUrl: (url) ->$/;"	f	line:328	language:coffee	object:exports.defaultConfigName.get
+volver	./app/assets/javascripts/controllers/fw/sesiones/main-ctrl.coffee	/^  \$scope.volver = ->$/;"	f	line:16	language:coffee	object:window

@@ -1,0 +1,8 @@
+cred_fiscal:
+  nombre: Credito Fiscal
+cta_egreso:
+  id: 10
+  nombre: Egreso
+cta_prov:
+  id: 1
+  nombre: Proveedores

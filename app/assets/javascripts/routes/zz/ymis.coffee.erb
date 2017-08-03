@@ -1,0 +1,12 @@
+angular.module 'appuu' 
+.config ($routeProvider) ->
+  $routeProvider
+  .when '/mis/:ns/:controller/',
+    controller: 'ResoursesIndexController'
+    templateUrl: '<%= asset_path("fw/resources") %>'
+  .when '/mis/:ns/:controller/new',
+    controller: 'ResoursesNewController'
+    templateUrl: '<%= asset_path("fw/resources/new") %>'
+  .when '/mis/:ns/:controller/:id',
+    controller: 'ResoursesUpdateController'
+    templateUrl: '<%= asset_path("fw/resources/edit") %>'

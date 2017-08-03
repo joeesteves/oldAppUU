@@ -1,0 +1,16 @@
+%div{class: 'modal fade', id: 'FijaEnEscritorio', tabindex: '-1'}
+  %div{class: 'modal-dialog'}
+    %div{class: 'modal-content'}
+      %div{class: 'modal-header'}
+        %button{type: 'button', class: 'close', 'data-dismiss': 'modal', 'aria-label': 'Close'}
+          %span{'aria-hidden': 'true'} &times;
+        %h4{class: 'modal-title'}  Fijar en escritorio
+      %div{class: 'modal-body alert alert-success'}
+        De:
+        %select
+          %option @pepegorila
+          %option @mariacataña
+          %option @facuesteves
+      %div{class: 'modal-footer'}
+        %button{type:'button', class: 'btn btn-warning', 'data-dismiss': 'modal'} Cancelar
+        %button{type:'button', class: 'btn btn-success', 'ng-click': 'borrar()', 'data-dismiss': 'modal'} Fijar

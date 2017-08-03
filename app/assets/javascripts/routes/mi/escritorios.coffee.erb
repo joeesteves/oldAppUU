@@ -1,0 +1,12 @@
+angular.module 'appuu' 
+.config ($routeProvider) ->
+  $routeProvider
+  .when '/mi/escritorio',
+    controller: 'EscritorioCtrl'
+    templateUrl: '<%= asset_path("mi/escritorio") %>'
+  .when '/mi/corcho',
+    controller: 'CorchoCtrl'
+    templateUrl: '<%= asset_path("mi/corcho") %>'
+  .when '/mi/archivo',
+    controller: 'ArchivoCtrl'
+    templateUrl: '<%= asset_path("mi/archivo") %>'

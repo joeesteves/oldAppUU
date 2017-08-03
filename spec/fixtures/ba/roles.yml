@@ -1,0 +1,9 @@
+admin:
+  estado: 1
+  nombre: administrador
+prop:
+  estado: 1
+  nombre: propietario
+colab:
+  estado: 1
+  nombre: colaborador

@@ -1,0 +1,12 @@
+%div.sesion-fondo
+  %img{class: 'img-fondo', src:'<%= asset_path("sesion_fondo.jpg") %>'}
+  %div.col-md-6.col-md-offset-3.sesion-panel
+    %div.col-md-6.col-md-offset-2.sesion-logo
+      %img{src:'<%= asset_path("logo.png") %>'}
+    %au-iniciar-sesion{'ng-show': 'pantalla == "principal"'}
+    / agrego esta linea porque sino al cargar la pagina se veian un micro segundo los paneles
+    %div{'ng-class': '{oculto: pantalla == "principal"}'}
+      %au-nueva-cuenta{'ng-show': 'pantalla == "nueva_cuenta"'}
+      %au-recordar-clave{'ng-show': 'pantalla == "recordar_clave"'}
+      %au-solicitud-enviada{'ng-show': 'pantalla == "solicitud_enviada"'}
+      %au-actualizar-password{'ng-show': 'pantalla == "actualizar_password"'}

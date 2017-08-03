@@ -1,0 +1,13 @@
+op_items_121:
+  producto: servicio
+  precio: 100
+  cantidad: 1
+  importe: 100
+  obs: producto con iva 21
+op_item2:
+  producto: servicio
+  precio: 100
+  cantidad: 1
+  importe: 100
+  impuesto_id: 3
+  obs: producto exento

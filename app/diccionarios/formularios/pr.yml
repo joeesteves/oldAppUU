@@ -1,0 +1,41 @@
+ba/productos:
+  cta_compra_id: &cta_compra_id
+    label: Compra
+    input:
+      type: select
+      placeholder: Cuenta de compras...
+      class: 'Mis::Cuentas::Egreso'
+  cta_venta_id: &cta_venta_id
+    label: Venta
+    input:
+      type: select
+      placeholder: Cuenta de ventas...
+      class: 'Mis::Cuentas::Ingreso'
+  impuesto_id: &impuesto_id
+    label: Impuesto
+    input:
+      type: select
+      placeholder: Impuesto
+      class: 'Co::Impuesto'
+  unidad: &unidad
+    label: unidad
+    input:
+      type: select
+      placeholder: Unidad...
+      const: 'Pr::Unidad::ALL'
+pr/bienes:
+  cta_compra_id:
+    <<: *cta_compra_id
+  cta_venta_id:
+    <<: *cta_venta_id
+  impuesto_id:
+    <<: *impuesto_id
+  unidad:
+    <<: *unidad
+pr/servicios:
+  cta_compra_id:
+    <<: *cta_compra_id
+  cta_venta_id:
+    <<: *cta_venta_id
+  impuesto_id:
+    <<: *impuesto_id

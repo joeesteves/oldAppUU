@@ -1,0 +1,6 @@
+es:
+  activerecord:
+    attributes:
+      ba/usuario:
+        email: Este mail
+        password_confirmation: La contraseña

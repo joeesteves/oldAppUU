@@ -1,0 +1,8 @@
+angular.module 'appuu'
+.config ($routeProvider) ->
+  $routeProvider
+    .when '/',
+      templateUrl: '<%= asset_path("fw/sesiones/index") %>'
+      controller: 'SesionCtrl'
+    .otherwise
+      redirectTo: '/'

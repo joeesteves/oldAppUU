@@ -1,0 +1,11 @@
+op/egresos:
+  total:
+    label: Total
+    input:
+      type: text
+      placeholder: Escriba un codigo
+  bruto:
+    label: Bruto
+    input:
+      type: text
+      placeholder: Que clase de cuenta es?

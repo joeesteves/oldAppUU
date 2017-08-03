@@ -1,0 +1,36 @@
+general:
+  codigo:
+    label: Codigo
+    input:
+      type: text
+      placeholder: Escriba un codigo
+  nombre:
+    label: Nombre
+    input:
+      type: text
+      placeholder: Escriba un nombre
+  descripcion:
+    label: Descripcion
+    input:
+      type: textarea
+      rows: 5
+  titulo:
+    label: Nombre
+    input:
+      type: text
+      placeholder: Escriba un titular
+  contenido:
+    label: Contenido
+    input:
+      type: textarea
+      placeholder: Que quiere decir?
+  email:
+    label: Email
+    input:
+      type: email
+      placeholder: su mail?
+  obs:
+    label: Observaciones
+    input:
+      type: textarea
+      placeholder: Que quiere decir?

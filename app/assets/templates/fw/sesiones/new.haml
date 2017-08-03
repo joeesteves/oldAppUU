@@ -1,0 +1,21 @@
+%div.panel.panel-default.col-md-12
+  %div.panel-body
+    %form{name: 'credencialForm', 'ng-submit': 'credencialForm.$valid && iniciar_sesion()', novalidate:true}
+      %div.input-group.input-group-lg
+        %span{class:'input-group-addon'} @
+        %input{class:'form-control', name: 'email', 'ng-model': 'credencial.email', type:'email', placeholder:'e-mail', required: true}
+      %div.sesion-separador
+      %div.input-group.input-group-lg
+        %span{class:'input-group-addon'}
+          %span.glyphicon.glyphicon-lock
+        %input{class:'form-control', name: 'password', 'ng-model': 'credencial.password', type:'password', placeholder:'password', required: true, pattern: '.{8,}'}
+      %br
+      %button{class:'btn btn-primary btn-lg sesion-btn', type:'submit', 'ng-disabled': 'credencialForm.$invalid'} Iniciar Sesion
+      %div.sesion-separador
+      %div.row
+        %div.col-md-6
+          %p.text-left
+            %a{'ng-click': 'cambiar_pantalla("nueva_cuenta")'}Nueva cuenta
+        %div.col-md-6
+          %p.text-right
+            %a{'ng-click': 'cambiar_pantalla("recordar_clave")'}Olvide mi contraseña

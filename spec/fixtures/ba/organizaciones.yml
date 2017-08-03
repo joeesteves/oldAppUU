@@ -1,0 +1,12 @@
+organizacion:
+  id: 5
+  estado: 1
+  nombre: Organizacion
+  id_fiscal: MyString
+  cat_fiscal: repo
+empresa:
+  id: 1
+  estado: 1
+  nombre: Mi Empresa de testeo
+  id_fiscal: MyString
+  cat_fiscal: repo

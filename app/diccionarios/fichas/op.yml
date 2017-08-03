@@ -1,0 +1,13 @@
+mis/operaciones/compras:
+  comprobante:
+    label: Comprobante
+    tab: home
+    ubicacion: contenido
+    cols: 6
+    icono: glyphicon glyphicon-barcode
+  org_nombre:
+    label: nombre de org
+    tab: home
+    ubicacion: contenido
+    cols: 6
+    icono: glyphicon glyphicon-user

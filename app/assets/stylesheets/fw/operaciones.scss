@@ -1,0 +1,30 @@
+.tipo_factura {
+  border-width: thin;
+  border-color: white;
+  margin: 0px;
+}
+
+.btn-op {
+  width:100%;
+}
+div .btn-op-wrap {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+input.form-control.con_warning {
+  padding-right: 12px;
+}
+
+li p img {
+  width: 100%;
+}
+
+.condicion_pago {
+  display: inline-block;
+  height: 100%;
+  background-color: #337AB7;
+  vertical-align: middle;
+  border: 1px solid #337AB7;
+  padding: 2px;
+}

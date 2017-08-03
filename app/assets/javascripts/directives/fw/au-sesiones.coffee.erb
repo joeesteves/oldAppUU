@@ -1,0 +1,25 @@
+angular.module('appuu')
+.directive 'auIniciarSesion', () ->
+  replace: true
+  restrict: 'E'
+  templateUrl: '<%= asset_path("fw/sesiones/new") %>'
+.directive 'auNuevaCuenta', () ->
+  replace: true
+  restrict: 'E'
+  templateUrl: '<%= asset_path("ba/usuarios/new") %>'
+.directive 'auRecordarClave', () ->
+  replace: true
+  restrict: 'E'
+  templateUrl: '<%= asset_path("fw/sesiones/recordar_clave") %>'
+.directive 'auSolicitudEnviada', () ->
+  replace: true
+  restrict: 'E'
+  templateUrl: '<%= asset_path("fw/sesiones/solicitud_enviada") %>'
+.directive 'auActualizarPassword', () ->
+  replace: true
+  restrict: 'E'
+  templateUrl: '<%= asset_path("ba/usuarios/actualizar_password") %>'
+.directive 'auPasswordActualizado', () ->
+  replace: true
+  restrict: 'E'
+  templateUrl: '<%= asset_path("ba/usuarios/password_actualizado") %>'

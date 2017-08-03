@@ -1,0 +1,9 @@
+usuario:
+  uid: appu_info@gmail.com
+  email: appu_info@gmail.com
+  provider: email
+  encrypted_password: 'password'
+  # password_confirmation: 'password'
+  confirmed_at: <%= Date.today %>
+  memoria:
+    ultima_empresa: 1

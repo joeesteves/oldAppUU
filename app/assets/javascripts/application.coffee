@@ -1,0 +1,16 @@
+#= require jquery
+#= require jquery_ujs
+#= require bootstrap-sass-official/assets/javascripts/bootstrap.js
+#= require chosen/chosen.jquery
+#= require marked/lib/marked
+#= require angular/angular
+#= require angular-resource/angular-resource
+#= require angular-route/angular-route
+#= require angular-cookie/angular-cookie
+#= require angular-sanitize/angular-sanitize
+#= require angular-marked/angular-marked
+#= require angular-animate/angular-animate
+#= require angular-loading-bar/src/loading-bar
+#= require ng-token-auth/dist/ng-token-auth
+#= require angular-chosen-localytics/chosen
+#= require_tree .

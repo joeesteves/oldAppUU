@@ -1,0 +1,489 @@
+.FFFFFF...............F......***......*.........**....*......FF.*F.....F.F..
+
+Pending: (Failures listed here are expected and do not affect your suite's status)
+
+  1) Co::Cotizacion add some examples to (or delete) /home/pony/appuu/spec/models/co/cotizacion_spec.rb
+     # Not yet implemented
+     # ./spec/models/co/cotizacion_spec.rb:4
+
+  2) Co::Cuenta add some examples to (or delete) /home/pony/appuu/spec/models/co/cuenta_spec.rb
+     # Not yet implemented
+     # ./spec/models/co/cuenta_spec.rb:4
+
+  3) Co::Impuesto add some examples to (or delete) /home/pony/appuu/spec/models/co/impuesto_spec.rb
+     # Not yet implemented
+     # ./spec/models/co/impuesto_spec.rb:4
+
+  4) Co::Moneda add some examples to (or delete) /home/pony/appuu/spec/models/co/moneda_spec.rb
+     # Not yet implemented
+     # ./spec/models/co/moneda_spec.rb:4
+
+  5) Fw::Scope add some examples to (or delete) /home/pony/appuu/spec/models/fw/scope_spec.rb
+     # Not yet implemented
+     # ./spec/models/fw/scope_spec.rb:4
+
+  6) Fw::Tag add some examples to (or delete) /home/pony/appuu/spec/models/fw/tag_spec.rb
+     # Not yet implemented
+     # ./spec/models/fw/tag_spec.rb:4
+
+  7) In::Deposito add some examples to (or delete) /home/pony/appuu/spec/models/in/deposito_spec.rb
+     # Not yet implemented
+     # ./spec/models/in/deposito_spec.rb:4
+
+  8) Op::Item add some examples to (or delete) /home/pony/appuu/spec/models/op/item_spec.rb
+     # Not yet implemented
+     # ./spec/models/op/item_spec.rb:4
+
+Failures:
+
+  1) Ad::Auxiliar 
+     Failure/Error: set_impuestos_in_detalle(item, side) if @op.empresa.cat_fiscal == 'repo'
+
+     NoMethodError:
+       undefined method `cat_fiscal' for nil:NilClass
+     # ./app/models/ad/auxiliar.rb:31:in `block in get_items'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+     # ./app/models/ad/auxiliar.rb:27:in `get_items'
+     # ./app/models/ad/auxiliar.rb:11:in `contabiliza'
+     # ./app/models/op/base.rb:22:in `contabiliza'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:430:in `block in make_lambda'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `block in halting'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `block in call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `each'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:88:in `run_callbacks'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/callbacks.rb:302:in `create_or_update'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/persistence.rb:120:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/validations.rb:37:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:220:in `transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block in save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:285:in `save'
+     # ./spec/models/ad/auxiliar_spec.rb:15:in `block (2 levels) in <top (required)>'
+
+  2) Ad::Auxiliar 
+     Failure/Error: set_impuestos_in_detalle(item, side) if @op.empresa.cat_fiscal == 'repo'
+
+     NoMethodError:
+       undefined method `cat_fiscal' for nil:NilClass
+     # ./app/models/ad/auxiliar.rb:31:in `block in get_items'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+     # ./app/models/ad/auxiliar.rb:27:in `get_items'
+     # ./app/models/ad/auxiliar.rb:11:in `contabiliza'
+     # ./app/models/op/base.rb:22:in `contabiliza'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:430:in `block in make_lambda'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `block in halting'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `block in call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `each'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:88:in `run_callbacks'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/callbacks.rb:302:in `create_or_update'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/persistence.rb:120:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/validations.rb:37:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:220:in `transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block in save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:285:in `save'
+     # ./spec/models/ad/auxiliar_spec.rb:20:in `block (2 levels) in <top (required)>'
+
+  3) Ad::Auxiliar 
+     Failure/Error: set_impuestos_in_detalle(item, side) if @op.empresa.cat_fiscal == 'repo'
+
+     NoMethodError:
+       undefined method `cat_fiscal' for nil:NilClass
+     # ./app/models/ad/auxiliar.rb:31:in `block in get_items'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+     # ./app/models/ad/auxiliar.rb:27:in `get_items'
+     # ./app/models/ad/auxiliar.rb:11:in `contabiliza'
+     # ./app/models/op/base.rb:22:in `contabiliza'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:430:in `block in make_lambda'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `block in halting'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `block in call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `each'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:88:in `run_callbacks'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/callbacks.rb:302:in `create_or_update'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/persistence.rb:120:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/validations.rb:37:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:220:in `transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block in save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:285:in `save'
+     # ./spec/models/ad/auxiliar_spec.rb:29:in `block (2 levels) in <top (required)>'
+
+  4) Ad::Auxiliar should eq 2
+     Failure/Error: set_impuestos_in_detalle(item, side) if @op.empresa.cat_fiscal == 'repo'
+
+     NoMethodError:
+       undefined method `cat_fiscal' for nil:NilClass
+     # ./app/models/ad/auxiliar.rb:31:in `block in get_items'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+     # ./app/models/ad/auxiliar.rb:27:in `get_items'
+     # ./app/models/ad/auxiliar.rb:11:in `contabiliza'
+     # ./app/models/op/base.rb:22:in `contabiliza'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:430:in `block in make_lambda'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `block in halting'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `block in call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `each'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:88:in `run_callbacks'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/callbacks.rb:302:in `create_or_update'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/persistence.rb:120:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/validations.rb:37:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:220:in `transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block in save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:285:in `save'
+     # ./spec/models/ad/auxiliar_spec.rb:38:in `block (2 levels) in <top (required)>'
+
+  5) Ad::Auxiliar should eq 2
+     Failure/Error: set_impuestos_in_detalle(item, side) if @op.empresa.cat_fiscal == 'repo'
+
+     NoMethodError:
+       undefined method `cat_fiscal' for nil:NilClass
+     # ./app/models/ad/auxiliar.rb:31:in `block in get_items'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+     # ./app/models/ad/auxiliar.rb:27:in `get_items'
+     # ./app/models/ad/auxiliar.rb:11:in `contabiliza'
+     # ./app/models/op/base.rb:22:in `contabiliza'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:430:in `block in make_lambda'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `block in halting'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `block in call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `each'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:88:in `run_callbacks'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/callbacks.rb:302:in `create_or_update'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/persistence.rb:120:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/validations.rb:37:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:220:in `transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block in save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:285:in `save'
+     # ./spec/models/ad/auxiliar_spec.rb:48:in `block (2 levels) in <top (required)>'
+
+  6) Ad::Auxiliar should eq 2
+     Failure/Error: set_impuestos_in_detalle(item, side) if @op.empresa.cat_fiscal == 'repo'
+
+     NoMethodError:
+       undefined method `cat_fiscal' for nil:NilClass
+     # ./app/models/ad/auxiliar.rb:31:in `block in get_items'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+     # ./app/models/ad/auxiliar.rb:27:in `get_items'
+     # ./app/models/ad/auxiliar.rb:11:in `contabiliza'
+     # ./app/models/op/base.rb:22:in `contabiliza'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:430:in `block in make_lambda'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `block in halting'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `block in call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `each'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:88:in `run_callbacks'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/callbacks.rb:302:in `create_or_update'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/persistence.rb:120:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/validations.rb:37:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:220:in `transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block in save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:285:in `save'
+     # ./spec/models/ad/auxiliar_spec.rb:59:in `block (2 levels) in <top (required)>'
+
+  7) Ba::Rol behaves like standard abm should validate that :nombre is case-sensitively unique
+     Failure/Error: [:nombre].each { |attr| it { should validate_uniqueness_of(attr)} }
+
+       Ba::Rol did not properly validate that :nombre is case-sensitively
+       unique.
+         The record you provided could not be created, as it failed with the
+         following validation errors:
+
+         * nombre: ["no puede estar en blanco"]
+     Shared Example Group: "standard abm" called from ./spec/models/ba/rol_spec.rb:4
+     # ./spec/support/shared_examples.rb:7:in `block (3 levels) in <top (required)>'
+
+  8) Mis::Operaciones::Compra hoy creo una compra con 1 producto
+     Failure/Error: set_impuestos_in_detalle(item, side) if @op.empresa.cat_fiscal == 'repo'
+
+     NoMethodError:
+       undefined method `cat_fiscal' for nil:NilClass
+     # ./app/models/ad/auxiliar.rb:31:in `block in get_items'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+     # ./app/models/ad/auxiliar.rb:27:in `get_items'
+     # ./app/models/ad/auxiliar.rb:11:in `contabiliza'
+     # ./app/models/op/base.rb:22:in `contabiliza'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:430:in `block in make_lambda'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `block in halting'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `block in call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `each'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:88:in `run_callbacks'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/callbacks.rb:302:in `create_or_update'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/persistence.rb:120:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/validations.rb:37:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:220:in `transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block in save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:285:in `save'
+     # ./spec/models/op/compra_spec.rb:12:in `block (2 levels) in <top (required)>'
+
+  9) Mis::Operaciones::Compra hoy creo una compra con 2 productos
+     Failure/Error: set_impuestos_in_detalle(item, side) if @op.empresa.cat_fiscal == 'repo'
+
+     NoMethodError:
+       undefined method `cat_fiscal' for nil:NilClass
+     # ./app/models/ad/auxiliar.rb:31:in `block in get_items'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+     # ./app/models/ad/auxiliar.rb:27:in `get_items'
+     # ./app/models/ad/auxiliar.rb:11:in `contabiliza'
+     # ./app/models/op/base.rb:22:in `contabiliza'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:430:in `block in make_lambda'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `block in halting'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `block in call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `each'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:88:in `run_callbacks'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/callbacks.rb:302:in `create_or_update'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/persistence.rb:120:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/validations.rb:37:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:220:in `transaction'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block in save'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+     # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:285:in `save'
+     # ./spec/models/op/compra_spec.rb:20:in `block (2 levels) in <top (required)>'
+
+  10) Mi::EmpresaController crear empresa con usuario crea empresa con current_ba_usuario como prop
+      Failure/Error: expect(response).to have_http_status(204)
+        expected the response to have status code 204 but it was 422
+      # ./spec/requests/crear_mi_empresa_spec.rb:9:in `block (3 levels) in <top (required)>'
+
+  11) Mis::Operaciones::ComprasController listar organizaciones crea una compra mediante post con un producto
+      Failure/Error: set_impuestos_in_detalle(item, side) if @op.empresa.cat_fiscal == 'repo'
+
+      NoMethodError:
+        undefined method `cat_fiscal' for nil:NilClass
+      # ./app/models/ad/auxiliar.rb:31:in `block in get_items'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/delegation.rb:46:in `each'
+      # ./app/models/ad/auxiliar.rb:27:in `get_items'
+      # ./app/models/ad/auxiliar.rb:11:in `contabiliza'
+      # ./app/models/op/base.rb:22:in `contabiliza'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:430:in `block in make_lambda'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:162:in `block in halting'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `block in call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `each'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:502:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:88:in `run_callbacks'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/callbacks.rb:302:in `create_or_update'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/persistence.rb:120:in `save'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/validations.rb:37:in `save'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:220:in `transaction'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:286:in `block in save'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:285:in `save'
+      # ./app/controllers/mis/operaciones/compras_controller.rb:17:in `create'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/abstract_controller/base.rb:198:in `process_action'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:115:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:115:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:503:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:503:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:88:in `run_callbacks'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/abstract_controller/callbacks.rb:19:in `process_action'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_controller/metal/rescue.rb:29:in `process_action'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/notifications.rb:164:in `block in instrument'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/notifications.rb:164:in `instrument'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/abstract_controller/base.rb:137:in `process'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionview-4.2.3/lib/action_view/rendering.rb:30:in `process'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_controller/metal.rb:196:in `dispatch'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_controller/metal.rb:237:in `block in action'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb:76:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb:45:in `serve'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/journey/router.rb:43:in `block in serve'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/journey/router.rb:30:in `each'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/journey/router.rb:30:in `serve'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb:821:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/warden-1.2.4/lib/warden/manager.rb:35:in `block in call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/warden-1.2.4/lib/warden/manager.rb:34:in `catch'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/warden-1.2.4/lib/warden/manager.rb:34:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/rack-1.6.4/lib/rack/etag.rb:24:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/rack-1.6.4/lib/rack/conditionalget.rb:38:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/flash.rb:260:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/cookies.rb:560:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/query_cache.rb:36:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:84:in `run_callbacks'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/rack-test-0.6.3/lib/rack/mock_session.rb:30:in `request'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/rack-test-0.6.3/lib/rack/test.rb:244:in `process_request'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/rack-test-0.6.3/lib/rack/test.rb:124:in `request'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/testing/integration.rb:297:in `process'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/testing/integration.rb:38:in `post'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/testing/integration.rb:344:in `block (2 levels) in <module:Runner>'
+      # ./spec/requests/op/compras_spec.rb:15:in `block (3 levels) in <top (required)>'
+
+  12) Mis::Operaciones::ComprasController listar organizaciones lista las comptas
+      Failure/Error: organizacion_id: create(:organizacion).id,
+
+      ActiveRecord::RecordInvalid:
+        La validación falló: Nombre ya está en uso
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/validations.rb:79:in `raise_record_invalid'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/validations.rb:43:in `save!'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods/dirty.rb:29:in `save!'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:291:in `block in save!'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:220:in `transaction'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.3/lib/active_record/transactions.rb:291:in `save!'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/factory_girl-4.5.0/lib/factory_girl/configuration.rb:14:in `block in initialize'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/factory_girl-4.5.0/lib/factory_girl/evaluation.rb:15:in `[]'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/factory_girl-4.5.0/lib/factory_girl/evaluation.rb:15:in `create'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/factory_girl-4.5.0/lib/factory_girl/strategy/create.rb:12:in `block in result'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/factory_girl-4.5.0/lib/factory_girl/strategy/create.rb:9:in `tap'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/factory_girl-4.5.0/lib/factory_girl/strategy/create.rb:9:in `result'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/factory_girl-4.5.0/lib/factory_girl/factory.rb:42:in `run'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/factory_girl-4.5.0/lib/factory_girl/factory_runner.rb:23:in `block in run'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.3/lib/active_support/notifications.rb:166:in `instrument'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/factory_girl-4.5.0/lib/factory_girl/factory_runner.rb:22:in `run'
+      # /home/pony/.rvm/gems/ruby-2.2.2/gems/factory_girl-4.5.0/lib/factory_girl/strategy_syntax_method_registrar.rb:20:in `block in define_singular_strategy_method'
+      # ./spec/requests/op/compras_spec.rb:26:in `block (3 levels) in <top (required)>'
+
+Finished in 7.16 seconds (files took 3.97 seconds to load)
+76 examples, 12 failures, 8 pending
+
+Failed examples:
+
+rspec ./spec/models/ad/auxiliar_spec.rb:14 # Ad::Auxiliar 
+rspec ./spec/models/ad/auxiliar_spec.rb:19 # Ad::Auxiliar 
+rspec ./spec/models/ad/auxiliar_spec.rb:27 # Ad::Auxiliar 
+rspec ./spec/models/ad/auxiliar_spec.rb:32 # Ad::Auxiliar should eq 2
+rspec ./spec/models/ad/auxiliar_spec.rb:41 # Ad::Auxiliar should eq 2
+rspec ./spec/models/ad/auxiliar_spec.rb:52 # Ad::Auxiliar should eq 2
+rspec ./spec/models/ba/rol_spec.rb[1:1:3] # Ba::Rol behaves like standard abm should validate that :nombre is case-sensitively unique
+rspec ./spec/models/op/compra_spec.rb:9 # Mis::Operaciones::Compra hoy creo una compra con 1 producto
+rspec ./spec/models/op/compra_spec.rb:14 # Mis::Operaciones::Compra hoy creo una compra con 2 productos
+rspec ./spec/requests/crear_mi_empresa_spec.rb:6 # Mi::EmpresaController crear empresa con usuario crea empresa con current_ba_usuario como prop
+rspec ./spec/requests/op/compras_spec.rb:6 # Mis::Operaciones::ComprasController listar organizaciones crea una compra mediante post con un producto
+rspec ./spec/requests/op/compras_spec.rb:23 # Mis::Operaciones::ComprasController listar organizaciones lista las comptas
+

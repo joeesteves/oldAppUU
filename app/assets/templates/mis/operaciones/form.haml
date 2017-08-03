@@ -1,0 +1,61 @@
+%form{class: 'form-inline', 'ng-submit': 'guardar()'}
+  %op-condiciones
+  %div.panel.panel-primary
+    %div.panel-heading
+      %div.row
+        %div.col-md-5
+          %label Fecha
+          %input{type: 'date', class: "form-control", 'ng-model': 'op.fecha'}
+        %div.col-md-2.text-center
+          %h1.tipo_factura A
+        %div.col-md-5.text-right
+          %label Nº
+          %input{type: 'text', class: "form-control", 'ng-model': 'op.comprobante', 'au-mask':true, placeholder:'A-####-########', title: 'Atajo: A5-123 => A-0005-00000123 '}
+    %div.panel-body
+      %div.row
+        %div.col-md-5
+          %select{class: "form-control full_size", 'ng-model': 'op.organizacion_id', 'ng-options': 'organizacion.id as organizacion.nombre for organizacion in organizaciones', 'chosen': true}
+            %option{value:'', 'disabled':true} Cliente...
+        %div.col-md-7
+          %textarea{class: "form-control", style: 'width:100%', rows: 3, 'ng-model': 'op.obs', placeholder: 'Detalle de la factura'}
+      %div.row
+        %div.col-md-5
+          %div{class: 'condicion_pago', 'long-click': '{"long": "modal_cp()", "short": "change_modo_pago()"}' }
+            %p {{modo_pago}}
+          %input{class: "form-control", type: 'text', 'ng-model': 'op.condiciones[0].forma', 'ng-change': 'set_cond_pago_tipo()'}
+          %div{class: 'condicion_pago'}
+            %p {{ cond_pago_tipo }}
+        %div.col-md-7
+          %textarea{class: "form-control", style: 'width:100%', rows: 5, 'ng-model': 'op.obs', placeholder: 'Detalle de la factura'}
+  %div.panel.panel-success
+    %div.panel-heading
+      %div{class: 'row', 'ng-repeat': 'item in op.items', 'ng-hide': 'item._destroy'}
+        %div.col-md-3
+          %select{class: "form-control", 'ng-model': 'item.producto_id', 'ng-options': 'producto.id as producto.nombre for producto in productos', 'ng-change': 'ch(item, "producto")', 'chosen': true}
+            %option{value:'', 'disabled':true} Elegí un prod
+          %span{class: 'badge link', 'ng-click': 'next_imp(item)', title: 'Click para cambiar alicuota'} {{ item.imp_alic != 0 ? item.imp_alic : "Ex" }}
+        %div.col-md-2
+          %input{class:"form-control", type: 'text', 'ng-model': 'item.precio', placeholder: 'Precio', 'ng-change': 'ch(item, null)', 'ng-disabled': 'deshabilito(item)'}
+        %div.col-md-2
+          %input{class:"form-control", type: 'text', 'ng-model': 'item.cantidad', placeholder: 'Cantidad', 'ng-change': 'ch(item, null)', 'ng-disabled': 'deshabilito(item)' }
+        %div{class: 'col-md-2', 'ng-class': '{ "has-feedback has-warning" : item.ed_manual }' }
+          %input{class:"form-control con_warning", type: 'text', 'ng-model': 'item.importe', 'ng-change': 'ch(item, "imp")','ng-init': 'ch(item, "init")', placeholder: 'Importe', 'ng-disabled': 'deshabilito(item)' }
+          %span{class:"glyphicon glyphicon-warning-sign form-control-feedback", 'ng-if': 'item.ed_manual'}
+        %div.col-md-1.col-md-offset-1
+          %span{class:'glyphicon glyphicon-plus-sign', 'ng-click': 'add_item()'}
+          %span{class:'glyphicon glyphicon-minus-sign', 'ng-click': 'delete_item(item)'}
+    %div.panel-footer
+      %div.row
+        %div.col-md-3
+          %label Bruto
+          %input{ tabindex:-1, type: 'text', 'ng-model': 'op.bruto', readonly: true }
+        %div.col-md-3
+          %label Impuestos
+          %input{ tabindex:-1, type: 'text', 'ng-model': 'op.impuesto', readonly: true }
+        %div.col-md-3
+          %label Total
+          %input{ tabindex:-1, type: 'text', 'ng-model': 'op.total', readonly: true }
+        %div.col-md-2.btn-op-wrap
+          %input{class: "btn btn-success btn-op", type: 'submit', value: " Guardar"}
+        %div.col-md-1.btn-op-wrap
+          %input{class: "btn btn-warning btn-op", style:"width:100%", type: 'submit', value: "Borrador"}

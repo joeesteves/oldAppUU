@@ -1,0 +1,46 @@
+general:
+  fecha:
+    label: Fecha
+    tab: home
+    ubicacion: encabezado
+    cols: 12
+  codigo:
+    label: Codigo
+    tab: home
+    ubicacion: encabezado
+    cols: 2
+  nombre:
+    label: Nombre
+    tab: home
+    ubicacion: encabezado
+    cols: 12
+  descripcion:
+    label: Descripcion
+    tab: home
+    ubicacion: contenido
+    orden: 1000
+    cols: 12
+    attrs: marked
+  titulo:
+    label: titulo
+    tab: home
+    ubicacion: encabezado
+    cols: 12
+  contenido:
+    label: Contenido
+    tab: home
+    ubicacion: contenido
+    orden: 1000
+    cols: 12
+    attrs: marked
+  email:
+    tab: home
+    ubicacion: encabezado
+    cols: 12
+  obs:
+    label: Observaciones
+    tab: home
+    ubicacion: contenido
+    orden: 1000
+    cols: 12
+    attrs: marked

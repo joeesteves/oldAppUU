@@ -1,0 +1,17 @@
+%div.panel.panel-default.col-md-12
+  %div.panel-body
+    %form{name: 'reseteableForm', 'ng-submit': 'reseteableForm.$valid && reset_password()', novalidate:true}
+      %div.input-group.input-group-lg
+        %span{class:'input-group-addon'} @
+        %input{class:'form-control', 'ng-model': 'reseteable.email', type:'email', placeholder:'e-mail', required: true}
+      %br
+      %button{class:'btn btn-primary btn-lg sesion-btn', type:'submit', 'ng-disabled': 'reseteableForm.$invalid'}
+        Enviar &nbsp &nbsp
+        %span.glyphicon.glyphicon-send
+      %div.sesion-separador
+      %div.row
+        %div.col-md-6
+          %p.text-left.text-primary
+            %a{'ng-click': 'volver()'}
+              %span.glyphicon.glyphicon-triangle-left
+              Volver

@@ -1,0 +1,6 @@
+angular.module 'appuu' 
+.config ($routeProvider) ->
+  $routeProvider
+  .when '/ba/usuarios/actualizar_password',
+    controller: 'UsuariosCtrl'
+    templateUrl: '<%= asset_path("ba/usuarios/actualizar_password") %>'

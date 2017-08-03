@@ -1,0 +1,6 @@
+caja:
+  cuenta_id: 5
+  forma: "0"
+tarjeta:
+  cuenta_id: 6
+  forma: "0"

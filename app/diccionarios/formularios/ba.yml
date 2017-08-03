@@ -1,0 +1,13 @@
+mi/perfil:
+  nickname:
+    label: '@'
+    input:
+      type: text
+      placeholder: para ser identificado
+mi/empresa:
+  cat_fiscal:
+    label: 'C.F.'
+    input:
+      type: select
+      placeholder: para ser identificado
+      const: 'Ba::Organizacion::CFISCALES'

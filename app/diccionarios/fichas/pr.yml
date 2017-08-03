@@ -1,0 +1,6 @@
+pr/bienes:
+  cta_compra_id:
+    label: Compra
+    tab: home
+    ubicacion: NO
+    cols: 2
